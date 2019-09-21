@@ -8,33 +8,33 @@ namespace HomeWork
         {
             Console.WriteLine("Введите 2 числа и операцию над ними (+, -, *, /, остаток от деления %, возведение в степень ^):");
 
-            var s1 = double.Parse(Console.ReadLine());
-            var s2 = double.Parse(Console.ReadLine());
-            var s3 = Console.ReadLine();
+            var firstOperand = double.Parse(Console.ReadLine());
+            var secondOperand = double.Parse(Console.ReadLine());
+            var operation = Console.ReadLine();
 
-            if (s3 == "+")
+            if (operation == "+")
             {
-                Console.WriteLine(s1 + s2);
+                Console.WriteLine(firstOperand + secondOperand);
             }
-            else if (s3 == "-")
+            else if (operation == "-")
             {
-                Console.WriteLine(s1 - s2);
+                Console.WriteLine(firstOperand - secondOperand);
             }
-            else if (s3 == "*")
+            else if (operation == "*")
             {
-                Console.WriteLine(s1 * s2);
+                Console.WriteLine(firstOperand * secondOperand);
             }
-            else if (s3 == "/")
+            else if (operation == "/")
             {
-                Console.WriteLine(s1 / s2);
+                Console.WriteLine(firstOperand / secondOperand);
             }
-            else if (s3 == "%")
+            else if (operation == "%")
             {
-                Console.WriteLine(s1 % s2);
+                Console.WriteLine(firstOperand % secondOperand);
             }
-            else if (s3 == "^")
+            else if (operation == "^")
             {
-                Console.WriteLine(Math.Pow(s1, s2));
+                Console.WriteLine(Math.Pow(firstOperand, secondOperand));
             }
             else
             {
