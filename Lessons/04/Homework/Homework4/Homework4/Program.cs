@@ -17,29 +17,24 @@ namespace Homework4
             var countOfContainers = new int[3];
             var containers = Containers.None;
 
-            while (litres > 0)
+            if (litres >= 20)
             {
-                if (litres >= 20)
-                {
-                    litres -= 20;
-                    containers |= Containers.Twenty;
-                    countOfContainers[0]++;
-                    continue;
-                }
-                if (litres >= 5)
-                {
-                    litres -= 5;
-                    containers |= Containers.Five;
-                    countOfContainers[1]++;
-                    continue;
-                }
-                if (litres >= 1)
-                {
-                    litres -= 1;
-                    containers |= Containers.One;
-                    countOfContainers[2]++;
-                    continue;
-                }
+                var remainder = (int)Math.Floor(litres / 20); 
+                countOfContainers[0] = remainder;
+                litres -= remainder * 20;
+                containers |= Containers.Twenty;
+            }
+            if (litres >= 5)
+            {
+                var remainder = (int)Math.Floor(litres / 5);
+                countOfContainers[1] = remainder;
+                litres -= remainder * 5;
+                containers |= Containers.Five;
+            }
+            if (litres >= 1)
+            {
+                countOfContainers[2] = (int)Math.Round(litres);
+                containers |= Containers.One;
             }
 
             Console.WriteLine($"Вам потребуются следующие контейнеры:");
