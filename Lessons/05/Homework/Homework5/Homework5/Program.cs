@@ -8,7 +8,11 @@ namespace Homework5
         enum Shapes { Circle, Triangle, Rectangle };
         static void Main(string[] args)
         {
-            ViewShapes();
+            Console.WriteLine($"Choose a shape:");
+            for (int i = 0; i < 3; i++)
+            {
+                Console.WriteLine($"{(Shapes)i} - {i}");
+            }
 
             do
             {
@@ -107,14 +111,6 @@ namespace Homework5
             Console.ForegroundColor = color;
             Console.WriteLine(message);
             Console.ForegroundColor = restoreColor;
-        }
-        static void ViewShapes()
-        {
-            Console.WriteLine($"Choose a shape:");
-            for (int i = 0; i < 3; i++)
-            {
-                Console.WriteLine($"{(Shapes)i} - {i}");
-            }
         }
     }
 }
