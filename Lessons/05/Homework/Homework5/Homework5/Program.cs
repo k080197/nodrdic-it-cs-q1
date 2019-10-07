@@ -2,10 +2,11 @@
 
 namespace Homework5
 {
+    enum Shapes { Circle, Triangle, Rectangle };
+
     class Program
     {
-        [Flags]
-        enum Shapes { Circle, Triangle, Rectangle };
+        
         static void Main(string[] args)
         {
             Console.WriteLine($"Choose a shape:");
@@ -14,24 +15,20 @@ namespace Homework5
                 Console.WriteLine($"{(Shapes)i} - {i}");
             }
 
-            do
+            switch(ReadEnum())
             {
-                switch(ReadEnum())
-                {
-                    case 0:
-                        CircleArea(ReadInt("diameter"));
-                        break;
-                    case 1:
-                        TriangleArea(ReadInt("edge"));
-                        break;
-                    case 2:
-                        RectangleArea(ReadInt("length"), ReadInt("width"));
-                        break;
-                    default:
-                        break;
-                }
-                break;
-            } while (true);
+                case (Shapes)0:
+                    CircleArea(ReadInt("diameter"));
+                    break;
+                case (Shapes)1:
+                    TriangleArea(ReadInt("edge"));
+                    break;
+                case (Shapes)2:
+                    RectangleArea(ReadInt("length"), ReadInt("width"));
+                    break;
+                default:
+                    break;
+            }
 
             Console.ReadKey();
         }
@@ -54,22 +51,14 @@ namespace Homework5
             Console.WriteLine($"Rectangle perimeter: { 2 * (length + width) }");
         }
 
-        static int ReadEnum()
+        static Shapes ReadEnum()
         {
             while (true)
             {
-                int number = default;
-
                 try
-
                 {
-                    number = int.Parse(Console.ReadLine());
-                    return number;
-                }
-                catch (FormatException exception) when (number < 0 || number > 2)
-                {
-                    WriteWithColor("Entered wrong number!", ConsoleColor.Red);
-                    WriteWithColor(exception.Message, ConsoleColor.Red);
+                    Enum.TryParse(typeof(Shapes), Console.ReadLine(), out var result);
+                    return (Shapes)result;
                 }
                 catch (FormatException exception)
                 {
@@ -77,6 +66,11 @@ namespace Homework5
                     WriteWithColor(exception.Message, ConsoleColor.Red);
                 }
                 catch (OverflowException exception)
+                {
+                    WriteWithColor("Entered unsupported value", ConsoleColor.Red);
+                    WriteWithColor(exception.Message, ConsoleColor.Red);
+                }
+                catch (NullReferenceException exception)
                 {
                     WriteWithColor("Entered unsupported value", ConsoleColor.Red);
                     WriteWithColor(exception.Message, ConsoleColor.Red);
