@@ -2,11 +2,16 @@
 
 namespace Homework5
 {
-    enum Shapes { Circle, Triangle, Rectangle };
+    [Flags]
+    enum Shapes : int
+    {
+        Circle,
+        Triangle,
+        Rectangle
+    };
 
     class Program
     {
-        
         static void Main(string[] args)
         {
             Console.WriteLine($"Choose a shape:");
@@ -17,13 +22,13 @@ namespace Homework5
 
             switch(ReadEnum())
             {
-                case (Shapes)0:
+                case 0:
                     CircleArea(ReadInt("diameter"));
                     break;
-                case (Shapes)1:
+                case 1:
                     TriangleArea(ReadInt("edge"));
                     break;
-                case (Shapes)2:
+                case 2:
                     RectangleArea(ReadInt("length"), ReadInt("width"));
                     break;
                 default:
@@ -51,30 +56,16 @@ namespace Homework5
             Console.WriteLine($"Rectangle perimeter: { 2 * (length + width) }");
         }
 
-        static Shapes ReadEnum()
+        static int ReadEnum()
         {
             while (true)
             {
-                try
+                if (Enum.TryParse(typeof(Shapes), Console.ReadLine(), out var result))
                 {
-                    Enum.TryParse(typeof(Shapes), Console.ReadLine(), out var result);
-                    return (Shapes)result;
+                    return (int)result;
                 }
-                catch (FormatException exception)
-                {
-                    WriteWithColor("Entered incorrect data!", ConsoleColor.Red);
-                    WriteWithColor(exception.Message, ConsoleColor.Red);
-                }
-                catch (OverflowException exception)
-                {
-                    WriteWithColor("Entered unsupported value", ConsoleColor.Red);
-                    WriteWithColor(exception.Message, ConsoleColor.Red);
-                }
-                catch (NullReferenceException exception)
-                {
-                    WriteWithColor("Entered unsupported value", ConsoleColor.Red);
-                    WriteWithColor(exception.Message, ConsoleColor.Red);
-                }
+
+                WriteWithColor("Entered incorrect data!", ConsoleColor.Red);
             }
         }
 
