@@ -6,7 +6,7 @@ namespace Homework2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите сумму первоначального взноса в рублях:");
+            Console.WriteLine("Введите сумму первоначального взноса в\n рублях:");
             var deposit = ReadNumber();
 
             Console.WriteLine("Введите ежедневный процент дохода в виде десятичной дроби (1% = 0.01):");
