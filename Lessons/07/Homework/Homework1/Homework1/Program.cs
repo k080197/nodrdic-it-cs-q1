@@ -7,52 +7,61 @@ namespace Homework1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(FirstSymbolCounter(Console.ReadLine(), 'a'));
+            var symbol = 'A'; // ENG
 
+            Console.WriteLine("Введите строку из нескольких слов:");
+
+            var text = Console.ReadLine();
+
+            while (WordsCounter(text) < 1)
+            {
+                Console.WriteLine($"Слишком мало слов :( Попробуйте ещё раз:");
+                text = Console.ReadLine();
+            }
+
+            Console.WriteLine($"Количество слов, начинающихся с буквы '{symbol}': {FirstSymbolCounter(text, symbol)}.");
             Console.ReadKey();
         }
 
-        private static string DeleteSpaces(string text)
+        private static int FirstSymbolCounter(string text, char symbol)
         {
-            var result = new StringBuilder();
+            text = text.ToUpper();
+
+            var count = text[0] == symbol ? 1 : 0;
 
             for (int i = 0, p = 0; i < text.Length; p = i++)
             {
                 var current = text[i];
                 var previous = text[p];
 
-                if (char.IsWhiteSpace(current) &&
-                    char.IsLetter(previous))
-                {
-                    result.Append(' ');
-                }
-            }
-            Console.WriteLine(result);
-            return result.ToString();
-        }
-
-        private static string FirstSymbolCounter(string text, char symbol)
-        {
-            var word = text[0] == symbol ? 1 : 0;
-
-            for (int i = 0, p = 0; i < text.Length; p = i++)
-            {
-                var current = text[i];
-                var previous = text[p];
-                Console.WriteLine(i +" "+ word);
                 if (char.IsWhiteSpace(previous) &&
                     current == symbol)
                 {
-                    word++;
-                } 
+                    count++;
+                }
             }
 
-            if (word > 0)
+            return count;
+        }
+
+        private static int WordsCounter(string text)
+        {
+
+            var count = 1;
+
+            for (int i = 0, p = 0; i < text.Length; p = i++)
             {
-                return $"{word} слов начинаются с буквы {symbol} {text}";
+                var current = text[i];
+                var previous = text[p];
+
+                if (char.IsWhiteSpace(previous) &&
+                    char.IsLetter(current))
+                {
+                    count++;
+                }
             }
 
-            return "Вы ввели мало слов.";
+            return count;
         }
     }
 }
