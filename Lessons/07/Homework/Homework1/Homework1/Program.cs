@@ -13,7 +13,7 @@ namespace Homework1
 
             var text = Console.ReadLine();
 
-            while (WordsCounter(text) < 1)
+            while (WordsCounter(text) < 2)
             {
                 Console.WriteLine($"Слишком мало слов :( Попробуйте ещё раз:");
                 text = Console.ReadLine();
