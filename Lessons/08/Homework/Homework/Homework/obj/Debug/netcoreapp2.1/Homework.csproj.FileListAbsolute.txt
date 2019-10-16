@@ -1,0 +1,11 @@
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\08\Homework\Homework\Homework\bin\Debug\netcoreapp2.1\Homework.deps.json
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\08\Homework\Homework\Homework\bin\Debug\netcoreapp2.1\Homework.runtimeconfig.json
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\08\Homework\Homework\Homework\bin\Debug\netcoreapp2.1\Homework.runtimeconfig.dev.json
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\08\Homework\Homework\Homework\bin\Debug\netcoreapp2.1\Homework.dll
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\08\Homework\Homework\Homework\bin\Debug\netcoreapp2.1\Homework.pdb
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\08\Homework\Homework\Homework\obj\Debug\netcoreapp2.1\Homework.csprojAssemblyReference.cache
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\08\Homework\Homework\Homework\obj\Debug\netcoreapp2.1\Homework.csproj.CoreCompileInputs.cache
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\08\Homework\Homework\Homework\obj\Debug\netcoreapp2.1\Homework.AssemblyInfoInputs.cache
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\08\Homework\Homework\Homework\obj\Debug\netcoreapp2.1\Homework.AssemblyInfo.cs
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\08\Homework\Homework\Homework\obj\Debug\netcoreapp2.1\Homework.dll
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\08\Homework\Homework\Homework\obj\Debug\netcoreapp2.1\Homework.pdb
