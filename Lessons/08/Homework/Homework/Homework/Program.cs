@@ -17,7 +17,9 @@ namespace Homework
             var s8 = "(()[]]"; // False
 
 
-            Console.WriteLine(IsValid(s2));            Console.ReadKey();
+            Console.WriteLine(IsValid(s2));
+
+            Console.ReadKey();
         }
 
         static bool IsValid(string brackets)
@@ -27,7 +29,11 @@ namespace Homework
                 return false;
             }
 
-            Dictionary<char, char> bracketsDictionary = new Dictionary<char, char>(5);            bracketsDictionary.Add('(', ')');            bracketsDictionary.Add('[', ']');            bracketsDictionary.Add('{', '}');            bracketsDictionary.Add('<', '>');
+            Dictionary<char, char> bracketsDictionary = new Dictionary<char, char>(5);
+            bracketsDictionary.Add('(', ')');
+            bracketsDictionary.Add('[', ']');
+            bracketsDictionary.Add('{', '}');
+            bracketsDictionary.Add('<', '>');
 
             var bracketsStackAsc = new Stack<char>();
             var bracketsStackDesc = new Stack<char>();
