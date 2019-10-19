@@ -17,19 +17,19 @@ namespace Homework
             var s8 = "(()[]]"; // False
 
 
-            Console.WriteLine(IsValid(s1));
-            Console.WriteLine(IsValid(s2));
-            Console.WriteLine(IsValid(s3));
-            Console.WriteLine(IsValid(s4));
-            Console.WriteLine(IsValid(s5));
-            Console.WriteLine(IsValid(s6));
-            Console.WriteLine(IsValid(s7));
-            Console.WriteLine(IsValid(s8));
+            Console.WriteLine(CheckForParentheses(s1));
+            Console.WriteLine(CheckForParentheses(s2));
+            Console.WriteLine(CheckForParentheses(s3));
+            Console.WriteLine(CheckForParentheses(s4));
+            Console.WriteLine(CheckForParentheses(s5));
+            Console.WriteLine(CheckForParentheses(s6));
+            Console.WriteLine(CheckForParentheses(s7));
+            Console.WriteLine(CheckForParentheses(s8));
 
             Console.ReadKey();
         }
 
-        static bool IsValid(string brackets)
+        static bool CheckForParentheses(string brackets)
         {
             if (brackets.Length % 2 > 0)
             {
