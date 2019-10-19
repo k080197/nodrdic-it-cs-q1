@@ -17,7 +17,14 @@ namespace Homework
             var s8 = "(()[]]"; // False
 
 
+            Console.WriteLine(IsValid(s1));
             Console.WriteLine(IsValid(s2));
+            Console.WriteLine(IsValid(s3));
+            Console.WriteLine(IsValid(s4));
+            Console.WriteLine(IsValid(s5));
+            Console.WriteLine(IsValid(s6));
+            Console.WriteLine(IsValid(s7));
+            Console.WriteLine(IsValid(s8));
 
             Console.ReadKey();
         }
@@ -29,19 +36,22 @@ namespace Homework
                 return false;
             }
 
-            Dictionary<char, char> bracketsDictionary = new Dictionary<char, char>(5);
-            bracketsDictionary.Add('(', ')');
-            bracketsDictionary.Add('[', ']');
-            bracketsDictionary.Add('{', '}');
-            bracketsDictionary.Add('<', '>');
+            Dictionary<char, char> bracketsDictionary = new Dictionary<char, char>
+            {
+                { '(', ')' },
+                { '[', ']' },
+                { '{', '}' },
+                { '<', '>' }
+            };
 
             var bracketsStackAsc = new Stack<char>();
             var bracketsStackDesc = new Stack<char>();
 
-            for (int i = 0; i < brackets.Length; i++)
+            for (int i = brackets.Length - 1; i >= 0; i--)
             {
                 bracketsStackAsc.Push(brackets[i]);
             }
+
             while (true)
             {
                 if (bracketsStackAsc.Count == 0)
@@ -49,44 +59,33 @@ namespace Homework
                     return true;
                 }
 
-
-
-                var list = new List<char>();
-                var num = bracketsStackAsc.Count;
-                for (var k = 0; k < num; k++) //опять пытаетесь забрать элементы из пустого стека
-                {
-                    list.Add(bracketsStackAsc.Pop());
-                    Console.Write(list[k]);
-                }
-                Console.WriteLine();
-                for (var k = 0; k < list.Count; k++) //опять пытаетесь забрать элементы из пустого стека
-                {
-                    bracketsStackAsc.Push(list[k]);
-                }
-
-
+                var stop = false;
 
                 for (var i = 0; i < bracketsStackAsc.Count; i++)
                 {
-                    var bracket = bracketsStackAsc.Pop();
+                    var openingBracket = bracketsStackAsc.Pop();
 
-                    if (bracketsDictionary.ContainsValue(bracket))
+                    if (bracketsDictionary.ContainsKey(openingBracket))
                     {
-                        bracketsStackDesc.Push(bracket);
-                        continue;
+                        bracketsStackDesc.Push(openingBracket);
                     }
-                    else if (bracketsDictionary.ContainsKey(bracket))
+                    else 
                     {
-                        if (bracketsStackDesc.Count > 0)
+                        var closingBracket = bracketsStackDesc.Pop();
+
+                        foreach (KeyValuePair<char, char> keyValue in bracketsDictionary)
                         {
-                            bracketsStackDesc.Pop();
-
-                            while (bracketsStackDesc.Count > 0)
+                            if (keyValue.Key == closingBracket && keyValue.Value == openingBracket)
                             {
-                                bracketsStackAsc.Push(bracketsStackDesc.Pop());
+                                stop = false;
+                                break;
                             }
+                            stop = true;
+                        }
 
-                            break;
+                        if (stop)
+                        {
+                            return false;
                         }
                     }
                 }
