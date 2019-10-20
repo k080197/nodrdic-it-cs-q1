@@ -22,19 +22,13 @@ namespace Homework2
         {
             while (true)
             {
-                try
-                {
-                    Console.WriteLine("Введите непустую строку:");
-                    var text = Console.ReadLine();
 
-                    if (!string.IsNullOrWhiteSpace(text))
-                    {
-                        return text;
-                    }
-                }
-                catch (NullReferenceException)
+                Console.WriteLine("Введите непустую строку:");
+                var text = Console.ReadLine();
+
+                if (!string.IsNullOrWhiteSpace(text))
                 {
-                    Console.WriteLine("Вы ввели пустую строку!");
+                    return text;
                 }
             }
         }
