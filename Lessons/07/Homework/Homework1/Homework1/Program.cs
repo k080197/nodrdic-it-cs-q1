@@ -8,34 +8,21 @@ namespace Homework1
         static void Main(string[] args)
         {
             var symbol = 'A'; // ENG
+            var text = InputText();
 
-            Console.WriteLine("Введите строку из нескольких слов:");
-
-            var text = Console.ReadLine();
-
-            while (WordsCounter(text) < 2)
-            {
-                Console.WriteLine($"Слишком мало слов :( Попробуйте ещё раз:");
-                text = Console.ReadLine();
-            }
-
-            Console.WriteLine($"Количество слов, начинающихся с буквы '{symbol}': {FirstSymbolCounter(text, symbol)}.");
+            Console.WriteLine($"Количество слов, начинающихся с буквы '{symbol}': {CountFirstSymbol(text, symbol)}.");
             Console.ReadKey();
         }
 
-        private static int FirstSymbolCounter(string text, char symbol)
+        private static int CountFirstSymbol(string text, char symbol)
         {
             text = text.ToUpper();
+            var count = 0;
+            var words = text.Split(' ', StringSplitOptions.RemoveEmptyEntries);
 
-            var count = text[0] == symbol ? 1 : 0;
-
-            for (int i = 0, p = 0; i < text.Length; p = i++)
+            foreach (string word in words)
             {
-                var current = text[i];
-                var previous = text[p];
-
-                if (char.IsWhiteSpace(previous) &&
-                    current == symbol)
+                if (word[0] == symbol)
                 {
                     count++;
                 }
@@ -44,7 +31,7 @@ namespace Homework1
             return count;
         }
 
-        private static int WordsCounter(string text)
+        private static int CountWords(string text)
         {
 
             var count = 1;
@@ -62,6 +49,27 @@ namespace Homework1
             }
 
             return count;
+        }
+
+        static string InputText()
+        {
+            while (true)
+            {
+                try
+                {
+                    Console.WriteLine("Введите строку из нескольких слов: ");
+                    var text =  Console.ReadLine();
+
+                    if (CountWords(text) > 1)
+                    {
+                        return text;
+                    }
+                }
+                catch (NullReferenceException)
+                {
+                    Console.WriteLine("Вы ввели пустую строку!");
+                }
+            }
         }
     }
 }
