@@ -27,7 +27,7 @@ namespace Homework
         {
             while (true)
             {
-                Console.WriteLine($"Input {index + 1} name:");
+                Console.WriteLine($"Input name {index}:");
                 var text = Console.ReadLine();
 
                 if (!string.IsNullOrWhiteSpace(text))
@@ -43,7 +43,7 @@ namespace Homework
         {
             while (true)
             {
-                Console.WriteLine($"Input {index + 1} age:");
+                Console.WriteLine($"Enter age {index}:");
 
                 if (byte.TryParse(Console.ReadLine(), out var operand))
                 {
