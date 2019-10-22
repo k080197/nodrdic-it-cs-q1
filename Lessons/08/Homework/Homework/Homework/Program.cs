@@ -7,24 +7,22 @@ namespace Homework
     {
         static void Main(string[] args)
         {
-            var s1 = "()"; // True
-            var s2 = "[]()"; // True
-            var s3 = "[[]()]"; // True
-            var s4 = "([([])])()[]"; // True
-            var s5 = "("; // False
-            var s6 = "[][)"; // False
-            var s7 = "[(])"; // False
-            var s8 = "(()[]]"; // False
+            var brackets = new string[]
+            {
+                "()",           // True
+                "[]()",         // True
+                "[[]()]",       // True
+                "([([])])()[]", // True
+                "(",            // False
+                "[][)",         // False
+                "[(])",         // False
+                "(()[]]",       // False
+            };
 
-
-            Console.WriteLine(CheckForParentheses(s1));
-            Console.WriteLine(CheckForParentheses(s2));
-            Console.WriteLine(CheckForParentheses(s3));
-            Console.WriteLine(CheckForParentheses(s4));
-            Console.WriteLine(CheckForParentheses(s5));
-            Console.WriteLine(CheckForParentheses(s6));
-            Console.WriteLine(CheckForParentheses(s7));
-            Console.WriteLine(CheckForParentheses(s8));
+            foreach (var text in brackets)
+            {
+                Console.WriteLine(CheckForParentheses(text));
+            }
 
             Console.ReadKey();
         }
@@ -44,55 +42,29 @@ namespace Homework
                 { '<', '>' }
             };
 
-            var bracketsStackAsc = new Stack<char>();
-            var bracketsStackDesc = new Stack<char>();
-
-            for (int i = brackets.Length - 1; i >= 0; i--)
-            {
-                bracketsStackAsc.Push(brackets[i]);
-            }
+            var bracketsStack = new Stack<char>();
 
             while (true)
             {
-                if (bracketsStackAsc.Count == 0)
+                if (brackets.Length == 0)
                 {
                     return true;
                 }
 
-                var stop = false;
-
-                for (var i = 0; i < bracketsStackAsc.Count; i++)
+                for (var i = 0; i < brackets.Length; i++)
                 {
-                    var openingBracket = bracketsStackAsc.Pop();
-
-                    if (bracketsDictionary.ContainsKey(openingBracket))
+                    if (bracketsDictionary.ContainsKey(brackets[i]))
                     {
-                        bracketsStackDesc.Push(openingBracket);
+                        bracketsStack.Push(brackets[i]);
                     }
-                    else 
+                    else if (bracketsDictionary[bracketsStack.Pop()] != brackets[i])
                     {
-                        var closingBracket = bracketsStackDesc.Pop();
-
-                        foreach (KeyValuePair<char, char> keyValue in bracketsDictionary)
-                        {
-                            if (keyValue.Key == closingBracket && keyValue.Value == openingBracket)
-                            {
-                                stop = false;
-                                break;
-                            }
-                            stop = true;
-                        }
-
-                        if (stop)
-                        {
-                            return false;
-                        }
+                        return false;
                     }
                 }
+
+                return true;
             }
-
-
-
         }
     }
 }
