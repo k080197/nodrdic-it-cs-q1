@@ -44,27 +44,19 @@ namespace Homework
 
             var bracketsStack = new Stack<char>();
 
-            while (true)
+            for (var i = 0; i < brackets.Length; i++)
             {
-                if (brackets.Length == 0)
+                if (bracketsDictionary.ContainsKey(brackets[i]))
                 {
-                    return true;
+                    bracketsStack.Push(brackets[i]);
                 }
-
-                for (var i = 0; i < brackets.Length; i++)
+                else if (bracketsDictionary[bracketsStack.Pop()] != brackets[i])
                 {
-                    if (bracketsDictionary.ContainsKey(brackets[i]))
-                    {
-                        bracketsStack.Push(brackets[i]);
-                    }
-                    else if (bracketsDictionary[bracketsStack.Pop()] != brackets[i])
-                    {
-                        return false;
-                    }
+                    return false;
                 }
-
-                return true;
             }
+
+            return true;
         }
     }
 }
