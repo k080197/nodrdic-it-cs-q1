@@ -29,7 +29,7 @@ namespace Homework
 
         static bool CheckForParentheses(string brackets)
         {
-            if (brackets.Length % 2 > 0)
+            if (brackets.Length < 2)
             {
                 return false;
             }
@@ -49,6 +49,10 @@ namespace Homework
                 if (bracketsDictionary.ContainsKey(brackets[i]))
                 {
                     bracketsStack.Push(brackets[i]);
+                }
+                else if (!bracketsDictionary.ContainsValue(brackets[i]))
+                {
+                    continue;
                 }
                 else if (bracketsDictionary[bracketsStack.Pop()] != brackets[i])
                 {
