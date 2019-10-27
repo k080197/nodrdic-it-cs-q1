@@ -1,0 +1,34 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Homework
+{
+    class ReminderItem
+    {
+        public DateTimeOffset AlarmDate { get; set; }
+        public string AlarmMessage { get; set; }
+        public TimeSpan TimeToAlarm =>
+            DateTimeOffset.Now - AlarmDate;
+        public bool IsOutdated =>
+            TimeToAlarm.Milliseconds >= 0;
+
+        public ReminderItem(DateTimeOffset alarmDate, string alarmMessage)
+        {
+            AlarmDate = alarmDate;
+            AlarmMessage = alarmMessage;
+        }
+
+        public string Properties =>
+            $"Alarm date: {AlarmDate}\n" +
+            $"Alarm message: {AlarmMessage}\n" +
+            $"Time to alarm: {TimeToAlarm}\n" +
+            $"Is outdated: {IsOutdated}";
+
+        public virtual void WriteProperties()
+        {
+            Console.WriteLine(this.GetType().ToString());
+            Console.WriteLine(Properties + "\n");
+        }
+    }
+}
