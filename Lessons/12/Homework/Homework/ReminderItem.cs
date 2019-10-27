@@ -20,14 +20,14 @@ namespace Homework
         }
 
         public virtual string Properties =>
-            this.GetType() +
-            $"\nAlarm date: {AlarmDate}\n" +
+            $"Alarm date: {AlarmDate}\n" +
             $"Alarm message: {AlarmMessage}\n" +
             $"Time to alarm: {TimeToAlarm}\n" +
             $"Is outdated: {IsOutdated}\n";
 
         public void WriteProperties()
         {
+            this.GetType();
             Console.WriteLine(Properties);
         }
     }
