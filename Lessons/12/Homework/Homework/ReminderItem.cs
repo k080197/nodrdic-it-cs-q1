@@ -26,7 +26,7 @@ namespace Homework
             $"Time to alarm: {TimeToAlarm}\n" +
             $"Is outdated: {IsOutdated}\n";
 
-        public virtual void WriteProperties()
+        public void WriteProperties()
         {
             Console.WriteLine(Properties);
         }
