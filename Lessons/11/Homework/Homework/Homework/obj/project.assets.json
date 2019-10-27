@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\k0801\\nodrdic-it-cs-q1\\Lessons\\11\\Новая папка\\Homework\\Homework\\Homework.csproj",
+      "projectUniqueName": "C:\\Users\\k0801\\nodrdic-it-cs-q1\\Lessons\\11\\Homework\\Homework\\Homework\\Homework.csproj",
       "projectName": "Homework",
-      "projectPath": "C:\\Users\\k0801\\nodrdic-it-cs-q1\\Lessons\\11\\Новая папка\\Homework\\Homework\\Homework.csproj",
+      "projectPath": "C:\\Users\\k0801\\nodrdic-it-cs-q1\\Lessons\\11\\Homework\\Homework\\Homework\\Homework.csproj",
       "packagesPath": "C:\\Users\\k0801\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\k0801\\nodrdic-it-cs-q1\\Lessons\\11\\Новая папка\\Homework\\Homework\\obj\\",
+      "outputPath": "C:\\Users\\k0801\\nodrdic-it-cs-q1\\Lessons\\11\\Homework\\Homework\\Homework\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

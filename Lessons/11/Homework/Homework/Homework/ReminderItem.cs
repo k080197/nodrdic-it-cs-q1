@@ -11,7 +11,7 @@ namespace Homework
         public TimeSpan TimeToAlarm =>
             DateTime.Now - AlarmDate;
         public bool IsOutdated =>
-            TimeToAlarm.Milliseconds < 0 ? false : true;
+            TimeToAlarm.Milliseconds >= 0;
 
         public ReminderItem(DateTime alarmDate, string alarmMessage)
         {
