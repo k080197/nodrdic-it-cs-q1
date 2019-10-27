@@ -9,14 +9,14 @@ namespace Homework
         {
             var reminderItems = new List<ReminderItem>();
 
-            reminderItems.Add(new ReminderItem(DateTimeOffset.Parse("2017-09-23"), "Будильник 1"));
+            reminderItems.Add(new ReminderItem(DateTimeOffset.Parse("2019-10-28"), "Будильник 1"));
             reminderItems.Add(new PhoneReminderItem(
-                DateTimeOffset.Parse("2017-09-23"), 
+                DateTimeOffset.Parse("2019-10-29"), 
                 "Звонок", 
                 "8 (999) 842-13-95"
                 ));
             reminderItems.Add(new ChatReminderItem(
-                DateTimeOffset.Parse("2017-09-23"), 
+                DateTimeOffset.Parse("2019-10-30"), 
                 "Напоминание", 
                 "Чат №1", 
                 "Константин"

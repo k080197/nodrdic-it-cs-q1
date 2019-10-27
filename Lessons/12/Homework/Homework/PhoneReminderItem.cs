@@ -14,11 +14,8 @@ namespace Homework
 
         public string PhoneNumber { get; set; }
 
-        public override void WriteProperties()
-        {
-            Console.WriteLine(this.GetType().ToString());
-            Console.WriteLine(Properties);
-            Console.WriteLine($"Phone number: {PhoneNumber}\n");
-        }
+        public override string Properties =>
+            base.Properties +
+            $"Phone number: {PhoneNumber}\n";
     }
 }

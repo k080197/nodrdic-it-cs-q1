@@ -16,12 +16,9 @@ namespace Homework
         public string ChatName { get; set; }
         public string AccountName { get; set; }
 
-        public override void WriteProperties()
-        {
-            Console.WriteLine(this.GetType().ToString());
-            Console.WriteLine(Properties);
-            Console.WriteLine($"Chat name: {ChatName}");
-            Console.WriteLine($"Account name: {AccountName}\n");
-        }
+        public override string Properties =>
+            base.Properties +
+            $"Chat name: {ChatName}" +
+            $"Account name: {AccountName}\n";
     }
 }

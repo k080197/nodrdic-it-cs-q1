@@ -19,16 +19,16 @@ namespace Homework
             AlarmMessage = alarmMessage;
         }
 
-        public string Properties =>
-            $"Alarm date: {AlarmDate}\n" +
+        public virtual string Properties =>
+            this.GetType() +
+            $"\nAlarm date: {AlarmDate}\n" +
             $"Alarm message: {AlarmMessage}\n" +
             $"Time to alarm: {TimeToAlarm}\n" +
-            $"Is outdated: {IsOutdated}";
+            $"Is outdated: {IsOutdated}\n";
 
         public virtual void WriteProperties()
         {
-            Console.WriteLine(this.GetType().ToString());
-            Console.WriteLine(Properties + "\n");
+            Console.WriteLine(Properties);
         }
     }
 }
