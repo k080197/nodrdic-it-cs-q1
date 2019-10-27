@@ -27,7 +27,7 @@ namespace Homework
 
         public void WriteProperties()
         {
-            this.GetType();
+            Console.WriteLine(GetType()); 
             Console.WriteLine(Properties);
         }
     }
