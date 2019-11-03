@@ -18,7 +18,7 @@ namespace Homework
 
         public override string Properties =>
             base.Properties +
-            $"Chat name: {ChatName}" +
+            $"Chat name: {ChatName}\n" +
             $"Account name: {AccountName}\n";
     }
 }
