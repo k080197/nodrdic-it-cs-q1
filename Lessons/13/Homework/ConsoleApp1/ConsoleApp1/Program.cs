@@ -10,7 +10,10 @@ namespace ConsoleApp1
             var fileLogWriter = new FileLogWriter("Привет!");
             var consoleLogWriter = new ConsoleLogWriter("Привет!");
 
-            var MultipleLogWriter = new MultipleLogWriter(new List<Interfaces.ILogWriter> { new FileLogWriter("Привет!"), new ConsoleLogWriter("Привет!") });
+            var MultipleLogWriter = new MultipleLogWriter(new List<Interfaces.ILogWriter> {
+                new FileLogWriter("Привет!"),
+                new ConsoleLogWriter("Привет!")
+            });
 
             Console.ReadKey();
         }
