@@ -10,7 +10,6 @@ namespace ConsoleApp1
         {
             foreach(var logWrtiter in logWriters)
             {
-
             }
         }
         public void LogInfo(string message)

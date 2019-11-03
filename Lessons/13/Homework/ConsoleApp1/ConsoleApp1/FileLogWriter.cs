@@ -15,15 +15,15 @@ namespace ConsoleApp1
     {
         public void LogInfo(string message)
         {
-            File.AppendAllText(@"/file.txt", DateTimeOffset.Now + "\t" + MessageTypes.Info +"\t" + message);
+            File.AppendAllText(@"./file.txt", DateTimeOffset.Now + "\t" + MessageTypes.Info +"\t" + message);
         }
         public void LogWarning(string message)
         {
-            File.AppendAllText(@"/file.txt", DateTimeOffset.Now + "\t" + MessageTypes.Warning + "\t" + message);
+            File.AppendAllText(@"./file.txt", DateTimeOffset.Now + "\t" + MessageTypes.Warning + "\t" + message);
         }
         public void LogError(string message)
         {
-            File.AppendAllText(@"/file.txt", DateTimeOffset.Now + "\t" + MessageTypes.Error + "\t" + message);
+            File.AppendAllText(@"./file.txt", DateTimeOffset.Now + "\t" + MessageTypes.Error + "\t" + message);
         }
         public FileLogWriter(string message)
         {
