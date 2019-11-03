@@ -8,8 +8,9 @@ namespace ConsoleApp1
     {
         public MultipleLogWriter(List<Interfaces.ILogWriter> logWriters)
         {
-            foreach(var logWrtiter in logWriters)
+            foreach(var logWriter in logWriters)
             {
+                
             }
         }
         public void LogInfo(string message)
