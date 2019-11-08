@@ -1,0 +1,11 @@
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\14\Classwork\Classwork\Classwork\bin\Debug\netcoreapp2.1\Classwork.deps.json
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\14\Classwork\Classwork\Classwork\bin\Debug\netcoreapp2.1\Classwork.runtimeconfig.json
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\14\Classwork\Classwork\Classwork\bin\Debug\netcoreapp2.1\Classwork.runtimeconfig.dev.json
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\14\Classwork\Classwork\Classwork\bin\Debug\netcoreapp2.1\Classwork.dll
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\14\Classwork\Classwork\Classwork\bin\Debug\netcoreapp2.1\Classwork.pdb
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\14\Classwork\Classwork\Classwork\obj\Debug\netcoreapp2.1\Classwork.csprojAssemblyReference.cache
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\14\Classwork\Classwork\Classwork\obj\Debug\netcoreapp2.1\Classwork.csproj.CoreCompileInputs.cache
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\14\Classwork\Classwork\Classwork\obj\Debug\netcoreapp2.1\Classwork.AssemblyInfoInputs.cache
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\14\Classwork\Classwork\Classwork\obj\Debug\netcoreapp2.1\Classwork.AssemblyInfo.cs
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\14\Classwork\Classwork\Classwork\obj\Debug\netcoreapp2.1\Classwork.dll
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\14\Classwork\Classwork\Classwork\obj\Debug\netcoreapp2.1\Classwork.pdb
