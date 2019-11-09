@@ -11,25 +11,17 @@ namespace ConsoleApp1
         Error
     }
 
-    class FileLogWriter : Interfaces.ILogWriter
+    class FileLogWriter : LogWriter
     {
-        public void LogInfo(string message)
+        private readonly string _fileName;
+
+        public FileLogWriter(string fileName)
         {
-            File.AppendAllText(@"./file.txt", DateTimeOffset.Now + "\t" + MessageTypes.Info +"\t" + message);
+            _fileName = fileName;
         }
-        public void LogWarning(string message)
+        protected override void WriteLine(string line)
         {
-            File.AppendAllText(@"./file.txt", DateTimeOffset.Now + "\t" + MessageTypes.Warning + "\t" + message);
-        }
-        public void LogError(string message)
-        {
-            File.AppendAllText(@"./file.txt", DateTimeOffset.Now + "\t" + MessageTypes.Error + "\t" + message);
-        }
-        public FileLogWriter(string message)
-        {
-            LogInfo(message);
-            LogWarning(message);
-            LogError(message);
+            File.AppendAllText(_fileName, line);
         }
     }
 }
