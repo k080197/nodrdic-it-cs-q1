@@ -20,7 +20,7 @@ namespace ConsoleApp1
             {
                 return instance ?? (instance = new FileLogWriter(parameters.ToString()));
             }
-            if (typeof(T) == typeof(MultipleLogWriter))
+            if (typeof(T) == typeof(MultipleLogWriter)) 
             {
                 return instance ?? (instance = new MultipleLogWriter((ILogWriter[])parameters));
             }
