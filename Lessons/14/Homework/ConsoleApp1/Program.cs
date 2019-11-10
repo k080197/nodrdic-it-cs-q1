@@ -7,16 +7,17 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var fileLogWriter = FileLogWriter.GetInstance("log1.log");
+            var fileLogWriter = FileLogWriter.GetInstance();
+            fileLogWriter._fileName = "log.log";
             fileLogWriter.LogWarning("Warning!");
 
             var consoleLogWriter = ConsoleLogWriter.Instance;
             consoleLogWriter.LogInfo("Information.");
 
-            var multipleLogWriter = MultipleLogWriter.GetInstance(
+            var multipleLogWriter = new MultipleLogWriter(
                 ConsoleLogWriter.Instance,
                 ConsoleLogWriter.Instance,
-                FileLogWriter.GetInstance("log2.log")
+                FileLogWriter.GetInstance()
             );
 
             multipleLogWriter.LogError("Some Error!");

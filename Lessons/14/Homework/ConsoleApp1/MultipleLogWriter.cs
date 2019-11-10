@@ -6,11 +6,9 @@ namespace ConsoleApp1
 {
     class MultipleLogWriter : ILogWriter
     {
-        private static MultipleLogWriter instance;
-
         private readonly ILogWriter[] _writers;
 
-        private MultipleLogWriter(params ILogWriter[] writers)
+        public MultipleLogWriter(params ILogWriter[] writers)
         {
             _writers = writers;
         }
@@ -37,10 +35,6 @@ namespace ConsoleApp1
             {
                 writer.LogWarning(message);
             }
-        }
-        public static MultipleLogWriter GetInstance(params ILogWriter[] writers)
-        {
-            return instance ?? (instance = new MultipleLogWriter(writers));
         }
     }
 }

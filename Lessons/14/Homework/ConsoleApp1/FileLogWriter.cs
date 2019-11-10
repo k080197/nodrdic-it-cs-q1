@@ -4,30 +4,30 @@ using System.IO;
 
 namespace ConsoleApp1
 {
-    enum MessageTypes : byte
-    {
-        Info,
-        Warning,
-        Error
-    }
-
     class FileLogWriter : LogWriter
     {
         private static FileLogWriter instance;
 
-        private readonly string _fileName;
+        public string _fileName;
 
-        private FileLogWriter(string fileName)
+        private FileLogWriter()
         {
-            _fileName = fileName;
         }
         protected override void WriteLine(string line)
         {
-            File.AppendAllText(_fileName, line);
+            if (_fileName != null)
+            {
+                File.AppendAllText(_fileName, line);
+            }
+            else
+            {
+                Console.WriteLine("Укажите имя файла.");
+            }
+            
         }
-        public static FileLogWriter GetInstance(string fileName)
+        public static FileLogWriter GetInstance()
         {
-            return instance ?? (instance = new FileLogWriter(fileName));
+            return instance ?? (instance = new FileLogWriter());
         }
     }
 }
