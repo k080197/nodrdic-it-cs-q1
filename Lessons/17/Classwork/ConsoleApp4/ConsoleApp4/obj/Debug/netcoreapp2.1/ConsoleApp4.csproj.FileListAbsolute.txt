@@ -9,3 +9,14 @@ C:\Users\k0801\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\netcoreapp2.1\Cons
 C:\Users\k0801\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\netcoreapp2.1\ConsoleApp4.AssemblyInfo.cs
 C:\Users\k0801\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\netcoreapp2.1\ConsoleApp4.dll
 C:\Users\k0801\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\netcoreapp2.1\ConsoleApp4.pdb
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\17\Classwork\ConsoleApp4\ConsoleApp4\bin\Debug\netcoreapp2.1\ConsoleApp4.deps.json
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\17\Classwork\ConsoleApp4\ConsoleApp4\bin\Debug\netcoreapp2.1\ConsoleApp4.runtimeconfig.json
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\17\Classwork\ConsoleApp4\ConsoleApp4\bin\Debug\netcoreapp2.1\ConsoleApp4.runtimeconfig.dev.json
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\17\Classwork\ConsoleApp4\ConsoleApp4\bin\Debug\netcoreapp2.1\ConsoleApp4.dll
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\17\Classwork\ConsoleApp4\ConsoleApp4\bin\Debug\netcoreapp2.1\ConsoleApp4.pdb
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\17\Classwork\ConsoleApp4\ConsoleApp4\obj\Debug\netcoreapp2.1\ConsoleApp4.csprojAssemblyReference.cache
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\17\Classwork\ConsoleApp4\ConsoleApp4\obj\Debug\netcoreapp2.1\ConsoleApp4.csproj.CoreCompileInputs.cache
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\17\Classwork\ConsoleApp4\ConsoleApp4\obj\Debug\netcoreapp2.1\ConsoleApp4.AssemblyInfoInputs.cache
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\17\Classwork\ConsoleApp4\ConsoleApp4\obj\Debug\netcoreapp2.1\ConsoleApp4.AssemblyInfo.cs
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\17\Classwork\ConsoleApp4\ConsoleApp4\obj\Debug\netcoreapp2.1\ConsoleApp4.dll
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\17\Classwork\ConsoleApp4\ConsoleApp4\obj\Debug\netcoreapp2.1\ConsoleApp4.pdb
