@@ -5,9 +5,31 @@ using Reminder.Domain.Models;
 
 namespace Reminder.Domain
 {
-    public class ReminderService : IDisposable
+	public class ReminderServiceParameters
+	{
+		public ReminderServiceParameters(
+			TimeSpan createTimerInterval,
+			TimeSpan createTimerDelay,
+			TimeSpan readyTimerInterval,
+			TimeSpan readyTimerDelay
+			)
+		{
+			CreateTimerInterval = createTimerInterval;
+			CreateTimerDelay = createTimerDelay;
+			ReadyTimerInterval = readyTimerInterval;
+			ReadyTimerDelay = readyTimerDelay;
+		}
+
+		public TimeSpan CreateTimerInterval { get; }
+		public TimeSpan CreateTimerDelay { get; }
+		public TimeSpan ReadyTimerInterval { get; }
+		public TimeSpan ReadyTimerDelay { get; }
+	}
+
+
+	public class ReminderService : IDisposable
     {
-        public event EventHandler<NotifyReminderModel> ItemNotified;
+		public event EventHandler<NotifyReminderModel> ItemNotified;
         public event EventHandler ItemSent;
         public event EventHandler ItemFailed;
 
@@ -15,7 +37,9 @@ namespace Reminder.Domain
         private readonly Timer _readyItemTimer;
         private readonly IReminderStorage _storage;
 
-        public ReminderService(IReminderStorage storage)
+        public ReminderService(IReminderStorage storage,
+			ReminderServiceParameters param
+			)
         {
             _storage = storage;
             _createdItemTimer = new Timer(OnCreatedItemTimerTick, null, TimeSpan.Zero, TimeSpan.FromSeconds(1));

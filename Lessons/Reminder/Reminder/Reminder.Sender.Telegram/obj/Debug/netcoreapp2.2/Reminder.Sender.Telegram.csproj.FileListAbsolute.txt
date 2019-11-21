@@ -1,0 +1,9 @@
+C:\Users\User\Desktop\твоя\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender.Telegram\bin\Debug\netcoreapp2.2\Reminder.Sender.Telegram.deps.json
+C:\Users\User\Desktop\твоя\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender.Telegram\bin\Debug\netcoreapp2.2\Reminder.Sender.Telegram.dll
+C:\Users\User\Desktop\твоя\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender.Telegram\bin\Debug\netcoreapp2.2\Reminder.Sender.dll
+C:\Users\User\Desktop\твоя\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender.Telegram\bin\Debug\netcoreapp2.2\Reminder.Sender.pdb
+C:\Users\User\Desktop\твоя\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender.Telegram\obj\Debug\netcoreapp2.2\Reminder.Sender.Telegram.csprojAssemblyReference.cache
+C:\Users\User\Desktop\твоя\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender.Telegram\obj\Debug\netcoreapp2.2\Reminder.Sender.Telegram.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\твоя\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender.Telegram\obj\Debug\netcoreapp2.2\Reminder.Sender.Telegram.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\твоя\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender.Telegram\obj\Debug\netcoreapp2.2\Reminder.Sender.Telegram.AssemblyInfo.cs
+C:\Users\User\Desktop\твоя\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender.Telegram\obj\Debug\netcoreapp2.2\Reminder.Sender.Telegram.csproj.CopyComplete

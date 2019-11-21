@@ -1,0 +1,9 @@
+C:\Users\User\Desktop\твоя\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender\bin\Debug\netcoreapp2.2\Reminder.Sender.deps.json
+C:\Users\User\Desktop\твоя\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender\bin\Debug\netcoreapp2.2\Reminder.Sender.dll
+C:\Users\User\Desktop\твоя\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender\bin\Debug\netcoreapp2.2\Reminder.Sender.pdb
+C:\Users\User\Desktop\твоя\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender\obj\Debug\netcoreapp2.2\Reminder.Sender.csprojAssemblyReference.cache
+C:\Users\User\Desktop\твоя\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender\obj\Debug\netcoreapp2.2\Reminder.Sender.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\твоя\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender\obj\Debug\netcoreapp2.2\Reminder.Sender.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\твоя\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender\obj\Debug\netcoreapp2.2\Reminder.Sender.AssemblyInfo.cs
+C:\Users\User\Desktop\твоя\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender\obj\Debug\netcoreapp2.2\Reminder.Sender.dll
+C:\Users\User\Desktop\твоя\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender\obj\Debug\netcoreapp2.2\Reminder.Sender.pdb

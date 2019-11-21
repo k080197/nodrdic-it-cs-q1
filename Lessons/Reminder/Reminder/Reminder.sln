@@ -3,19 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reminder.Storage", "Reminder.Storage\Reminder.Storage.csproj", "{7228E6C1-949E-4D35-BD4E-E90015CDFB37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reminder.Storage", "Reminder.Storage\Reminder.Storage.csproj", "{7228E6C1-949E-4D35-BD4E-E90015CDFB37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reminder.Storage.Memory", "Reminder.Storage.Memory\Reminder.Storage.Memory.csproj", "{4B13492F-7451-4210-BA10-1F39B25CBD2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reminder.Storage.Memory", "Reminder.Storage.Memory\Reminder.Storage.Memory.csproj", "{4B13492F-7451-4210-BA10-1F39B25CBD2F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{A7BA3315-6201-4366-93D7-C002AAEDF5C1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{DBBF231A-43CD-4420-9AC8-8A9389C648C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reminder.Storage.Memory.Tests", "Reminder.Storage.Memory.Tests\Reminder.Storage.Memory.Tests.csproj", "{DD9DEB0F-7998-47AA-B9EA-973C8D356DE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reminder.Storage.Memory.Tests", "Reminder.Storage.Memory.Tests\Reminder.Storage.Memory.Tests.csproj", "{DD9DEB0F-7998-47AA-B9EA-973C8D356DE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reminder.Domain", "Reminder.Domain\Reminder.Domain.csproj", "{6C328AB8-8B24-45F0-BB79-01F8F46E9DC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reminder.Domain", "Reminder.Domain\Reminder.Domain.csproj", "{6C328AB8-8B24-45F0-BB79-01F8F46E9DC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reminder", "Reminder\Reminder.csproj", "{9FDF295D-E3AD-4DC8-BD05-738766675599}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reminder", "Reminder\Reminder.csproj", "{9FDF295D-E3AD-4DC8-BD05-738766675599}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reminder.Sender", "Reminder.Sender\Reminder.Sender.csproj", "{33941B09-4A26-49EB-B80C-27809C7BC1B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reminder.Receiver", "Reminder.Receiver\Reminder.Receiver.csproj", "{EA48EC4A-BBFD-4867-9F25-8EC4F521B0B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reminder.Domain.Test", "Reminder.Domain.Test\Reminder.Domain.Test.csproj", "{BA0B5669-E380-4ADC-B3E7-4BFF8BAD0BE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reminder.Sender.Telegram", "Reminder.Sender.Telegram\Reminder.Sender.Telegram.csproj", "{4961635B-B4FD-44A5-A95E-2595BB87A4D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reminder.Receiver.Telegram", "Reminder.Receiver.Telegram\Reminder.Receiver.Telegram.csproj", "{E521E4DF-9690-416B-A414-2DEA53716D23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +53,26 @@ Global
 		{9FDF295D-E3AD-4DC8-BD05-738766675599}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FDF295D-E3AD-4DC8-BD05-738766675599}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FDF295D-E3AD-4DC8-BD05-738766675599}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33941B09-4A26-49EB-B80C-27809C7BC1B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33941B09-4A26-49EB-B80C-27809C7BC1B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33941B09-4A26-49EB-B80C-27809C7BC1B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33941B09-4A26-49EB-B80C-27809C7BC1B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA48EC4A-BBFD-4867-9F25-8EC4F521B0B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA48EC4A-BBFD-4867-9F25-8EC4F521B0B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA48EC4A-BBFD-4867-9F25-8EC4F521B0B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA48EC4A-BBFD-4867-9F25-8EC4F521B0B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA0B5669-E380-4ADC-B3E7-4BFF8BAD0BE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA0B5669-E380-4ADC-B3E7-4BFF8BAD0BE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA0B5669-E380-4ADC-B3E7-4BFF8BAD0BE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA0B5669-E380-4ADC-B3E7-4BFF8BAD0BE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4961635B-B4FD-44A5-A95E-2595BB87A4D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4961635B-B4FD-44A5-A95E-2595BB87A4D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4961635B-B4FD-44A5-A95E-2595BB87A4D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4961635B-B4FD-44A5-A95E-2595BB87A4D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E521E4DF-9690-416B-A414-2DEA53716D23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E521E4DF-9690-416B-A414-2DEA53716D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E521E4DF-9690-416B-A414-2DEA53716D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E521E4DF-9690-416B-A414-2DEA53716D23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +83,11 @@ Global
 		{DD9DEB0F-7998-47AA-B9EA-973C8D356DE0} = {DBBF231A-43CD-4420-9AC8-8A9389C648C5}
 		{6C328AB8-8B24-45F0-BB79-01F8F46E9DC2} = {A7BA3315-6201-4366-93D7-C002AAEDF5C1}
 		{9FDF295D-E3AD-4DC8-BD05-738766675599} = {A7BA3315-6201-4366-93D7-C002AAEDF5C1}
+		{33941B09-4A26-49EB-B80C-27809C7BC1B1} = {A7BA3315-6201-4366-93D7-C002AAEDF5C1}
+		{EA48EC4A-BBFD-4867-9F25-8EC4F521B0B0} = {A7BA3315-6201-4366-93D7-C002AAEDF5C1}
+		{BA0B5669-E380-4ADC-B3E7-4BFF8BAD0BE1} = {DBBF231A-43CD-4420-9AC8-8A9389C648C5}
+		{4961635B-B4FD-44A5-A95E-2595BB87A4D3} = {A7BA3315-6201-4366-93D7-C002AAEDF5C1}
+		{E521E4DF-9690-416B-A414-2DEA53716D23} = {A7BA3315-6201-4366-93D7-C002AAEDF5C1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AECDFE65-AC67-4DCC-9788-2E4B4F30D928}

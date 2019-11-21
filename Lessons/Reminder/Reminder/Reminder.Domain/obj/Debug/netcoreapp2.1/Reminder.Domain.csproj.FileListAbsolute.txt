@@ -10,3 +10,15 @@ C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Domain\obj\De
 C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Domain\obj\Debug\netcoreapp2.1\Reminder.Domain.csproj.CopyComplete
 C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Domain\obj\Debug\netcoreapp2.1\Reminder.Domain.dll
 C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Domain\obj\Debug\netcoreapp2.1\Reminder.Domain.pdb
+C:\Users\User\Desktop\твоя\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Domain\bin\Debug\netcoreapp2.1\Reminder.Domain.deps.json
+C:\Users\User\Desktop\твоя\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Domain\bin\Debug\netcoreapp2.1\Reminder.Domain.dll
+C:\Users\User\Desktop\твоя\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Domain\bin\Debug\netcoreapp2.1\Reminder.Domain.pdb
+C:\Users\User\Desktop\твоя\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Domain\bin\Debug\netcoreapp2.1\Reminder.Storage.dll
+C:\Users\User\Desktop\твоя\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Domain\bin\Debug\netcoreapp2.1\Reminder.Storage.pdb
+C:\Users\User\Desktop\твоя\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Domain\obj\Debug\netcoreapp2.1\Reminder.Domain.csprojAssemblyReference.cache
+C:\Users\User\Desktop\твоя\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Domain\obj\Debug\netcoreapp2.1\Reminder.Domain.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\твоя\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Domain\obj\Debug\netcoreapp2.1\Reminder.Domain.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\твоя\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Domain\obj\Debug\netcoreapp2.1\Reminder.Domain.AssemblyInfo.cs
+C:\Users\User\Desktop\твоя\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Domain\obj\Debug\netcoreapp2.1\Reminder.Domain.csproj.CopyComplete
+C:\Users\User\Desktop\твоя\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Domain\obj\Debug\netcoreapp2.1\Reminder.Domain.dll
+C:\Users\User\Desktop\твоя\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Domain\obj\Debug\netcoreapp2.1\Reminder.Domain.pdb
