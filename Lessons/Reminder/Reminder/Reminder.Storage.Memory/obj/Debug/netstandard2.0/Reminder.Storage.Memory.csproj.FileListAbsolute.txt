@@ -1,0 +1,12 @@
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Storage.Memory\bin\Debug\netstandard2.0\Reminder.Storage.dll
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Storage.Memory\obj\Debug\netstandard2.0\Reminder.Storage.Memory.csprojAssemblyReference.cache
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Storage.Memory\obj\Debug\netstandard2.0\Reminder.Storage.Memory.csproj.CoreCompileInputs.cache
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Storage.Memory\obj\Debug\netstandard2.0\Reminder.Storage.Memory.AssemblyInfoInputs.cache
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Storage.Memory\obj\Debug\netstandard2.0\Reminder.Storage.Memory.AssemblyInfo.cs
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Storage.Memory\bin\Debug\netstandard2.0\Reminder.Storage.Memory.deps.json
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Storage.Memory\bin\Debug\netstandard2.0\Reminder.Storage.Memory.dll
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Storage.Memory\bin\Debug\netstandard2.0\Reminder.Storage.Memory.pdb
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Storage.Memory\bin\Debug\netstandard2.0\Reminder.Storage.pdb
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Storage.Memory\obj\Debug\netstandard2.0\Reminder.Storage.Memory.csproj.CopyComplete
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Storage.Memory\obj\Debug\netstandard2.0\Reminder.Storage.Memory.dll
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Storage.Memory\obj\Debug\netstandard2.0\Reminder.Storage.Memory.pdb

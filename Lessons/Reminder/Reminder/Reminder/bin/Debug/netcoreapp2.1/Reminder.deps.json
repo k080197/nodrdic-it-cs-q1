@@ -1,0 +1,64 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "Reminder/1.0.0": {
+        "dependencies": {
+          "Reminder.Domain": "1.0.0",
+          "Reminder.Storage": "1.0.0",
+          "Reminder.Storage.Memory": "1.0.0"
+        },
+        "runtime": {
+          "Reminder.dll": {}
+        }
+      },
+      "Reminder.Domain/1.0.0": {
+        "dependencies": {
+          "Reminder.Storage": "1.0.0"
+        },
+        "runtime": {
+          "Reminder.Domain.dll": {}
+        }
+      },
+      "Reminder.Storage/1.0.0": {
+        "runtime": {
+          "Reminder.Storage.dll": {}
+        }
+      },
+      "Reminder.Storage.Memory/1.0.0": {
+        "dependencies": {
+          "Reminder.Storage": "1.0.0"
+        },
+        "runtime": {
+          "Reminder.Storage.Memory.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Reminder/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reminder.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reminder.Storage/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reminder.Storage.Memory/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
