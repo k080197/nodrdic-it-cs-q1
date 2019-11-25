@@ -4,77 +4,71 @@ using System.Collections.Generic;
 
 namespace Reminder.Storage.Memory
 {
-    public class ReminderStorage : IReminderStorage
-    {
-        private readonly Dictionary<Guid, ReminderItem> _map;
+	public class ReminderStorage : IReminderStorage
+	{
+		private readonly Dictionary<Guid, ReminderItem> _map;
 
-        public ReminderStorage(params ReminderItem[] items)
-        {
-            _map = items.ToDictionary(item => item.Id);
-        }
+		internal ReminderStorage(params ReminderItem[] items)
+		{
+			_map = items.ToDictionary(item => item.Id);
+		}
 
-        public ReminderStorage()
-        {
-            _map = new Dictionary<Guid, ReminderItem>();
-        }
+		public ReminderStorage()
+		{
+			_map = new Dictionary<Guid, ReminderItem>();
+		}
 
-        public void Create(ReminderItem item)
-        {
-            if (item == null)
-            {
-                throw new ArgumentNullException(nameof(item));
-            }
+		public void Create(ReminderItem item)
+		{
+			if (item == null)
+			{
+				throw new ArgumentNullException(nameof(item));
+			}
 
-            if (_map.ContainsKey(item.Id))
-            {
-                throw new ArgumentException($"Уже существует элемент с идентификатором {item.Id}");
-            }
+			if (_map.ContainsKey(item.Id))
+			{
+				throw new ArgumentException($"Уже существует элемент с идентификатором {item.Id}");
+			}
 
-            // 
-            _map[item.Id] = item;
-        }
+			_map[item.Id] = item;
+		}
 
-        public List<ReminderItem> FindByDateTime(DateTimeOffset dateTime)
-        {
-            throw new NotImplementedException();
-        }
+		public List<ReminderItem> FindBy(ReminderItemFilter filter)
+		{
+			if (filter == null)
+			{
+				throw new ArgumentNullException(nameof(filter));
+			}
 
-        public List<ReminderItem> FindBy(ReminderItemFilter filter)
-        {
-            if (filter == null)
-            {
-                throw new ArgumentNullException(nameof(filter));
-            }
+			var result = _map.Values.AsEnumerable();
 
-            var result = _map.Values.AsEnumerable();
+			if (filter.Status.HasValue)
+			{
+				result = result.Where(item => item.Status == filter.Status.Value);
+			}
 
-            if (filter.Status.HasValue)
-            {
-                result = result.Where(item => item.Status == filter.Status.Value);
-            }
+			if (filter.DateTime.HasValue)
+			{
+				result = result.Where(item => item.MessageDate < filter.DateTime.Value);
+			}
 
-            if (filter.DateTime.HasValue)
-            {
-                result = result.Where(item => item.MessageDate < filter.DateTime.Value);
-            }
+			return result.ToList();
+		}
 
-            return result.ToList();
-        }
+		public ReminderItem FindById(Guid id)
+		{
+			if (!_map.ContainsKey(id))
+			{
+				throw new ArgumentException($"Не найден элемент с ключом {id}", nameof(id));
+			}
 
-        public ReminderItem FindById(Guid id)
-        {
-            if (!_map.ContainsKey(id))
-            {
-                throw new ArgumentException($"Не найден элемент с ключом {id}", nameof(id));
-            }
+			return _map[id];
+		}
 
-            return _map[id];
-        }
-
-        // TODO: Должно быть реализовано корректно, со всеми проверками
-        public void Update(ReminderItem item)
-        {
-            _map[item.Id] = item;
-        }
-    }
+		// TODO: Должно быть реализовано корректно, со всеми проверками
+		public void Update(ReminderItem item)
+		{
+			_map[item.Id] = item;
+		}
+	}
 }

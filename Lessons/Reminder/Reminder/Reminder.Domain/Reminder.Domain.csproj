@@ -1,10 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Reminder.Receiver\Reminder.Receiver.csproj" />
+    <ProjectReference Include="..\Reminder.Sender\Reminder.Sender.csproj" />
     <ProjectReference Include="..\Reminder.Storage\Reminder.Storage.csproj" />
   </ItemGroup>
 

@@ -1,41 +1,42 @@
 ﻿using System;
 using Reminder.Domain;
-using Reminder.Domain.Models;
+using Reminder.Receiver.Telegram;
 using Reminder.Storage.Memory;
+using Reminder.Sender.Telegram;
 
 namespace Reminder
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("[Reminder Notifier] starting...");
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			var key = "";
+            using (var service = new ReminderService(
+                storage: new ReminderStorage(),
+                sender: new ReminderSender(key),
+                receiver: new ReminderReceiver(key),
+                parameters: ReminderServiceParameters.Default
+            ))
+            {
+                service.ItemSent += OnItemSent;
+                service.ItemFailed += OnItemFailed;
 
-            var storage = new ReminderStorage();
-            var service = new ReminderService(storage);
+                Console.WriteLine("[Reminder] starting...");
+                service.Start();
+                Console.WriteLine("[Reminder] started. Press any key to stop service");
+                Console.ReadKey();
+                Console.WriteLine("[Reminder] stopped.");
+            }
+		}
 
-            service.ItemNotified += OnReminderItemFired;
-            service.Create(
-                new CreateReminderModel(
-                    "ContactId",
-                    "First",
-                    DateTimeOffset.UtcNow.AddSeconds(3)
-                )
-            );
-            service.Create(
-                new CreateReminderModel(
-                    "ContactId",
-                    "Second",
-                    DateTimeOffset.UtcNow.AddMinutes(1)
-                )
-            );
+		private static void OnItemSent(object sender, ItemSentEventArgs args)
+		{
+			Console.WriteLine($"[Reminder notification] sent with id: {args.Id:N}");
+		}
 
-            Console.ReadKey();
-        }
-
-        private static void OnReminderItemFired(object sender, NotifyReminderModel args)
-        {
-            Console.WriteLine(args.Message);
-        }
-    }
+		private static void OnItemFailed(object sender, ItemFailedEventArgs args)
+		{
+			Console.WriteLine($"[Reminder notification] sent with id: {args.Id:N}, error: {args.Exception}");
+		}
+	}
 }

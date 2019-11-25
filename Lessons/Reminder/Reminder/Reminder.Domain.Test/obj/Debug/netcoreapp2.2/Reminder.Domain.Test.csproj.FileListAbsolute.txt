@@ -19,3 +19,9 @@ C:\Users\User\Desktop\твоя\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Remind
 C:\Users\User\Desktop\твоя\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Domain.Test\obj\Debug\netcoreapp2.2\Reminder.Domain.Test.csproj.CopyComplete
 C:\Users\User\Desktop\твоя\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Domain.Test\obj\Debug\netcoreapp2.2\Reminder.Domain.Test.dll
 C:\Users\User\Desktop\твоя\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Domain.Test\obj\Debug\netcoreapp2.2\Reminder.Domain.Test.pdb
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Domain.Test\obj\Debug\netcoreapp2.2\Reminder.Domain.Test.csprojAssemblyReference.cache
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Domain.Test\obj\Debug\netcoreapp2.2\Reminder.Domain.Test.csproj.CoreCompileInputs.cache
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Domain.Test\obj\Debug\netcoreapp2.2\Reminder.Domain.Test.AssemblyInfoInputs.cache
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Domain.Test\obj\Debug\netcoreapp2.2\Reminder.Domain.Test.AssemblyInfo.cs
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Domain.Test\obj\Debug\netcoreapp2.2\Reminder.Domain.Test.dll
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Domain.Test\obj\Debug\netcoreapp2.2\Reminder.Domain.Test.pdb

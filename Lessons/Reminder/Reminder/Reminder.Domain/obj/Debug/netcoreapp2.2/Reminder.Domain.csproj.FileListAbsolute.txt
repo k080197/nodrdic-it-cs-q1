@@ -1,0 +1,16 @@
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Domain\obj\Debug\netcoreapp2.2\Reminder.Domain.csprojAssemblyReference.cache
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Domain\obj\Debug\netcoreapp2.2\Reminder.Domain.csproj.CoreCompileInputs.cache
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Domain\obj\Debug\netcoreapp2.2\Reminder.Domain.AssemblyInfoInputs.cache
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Domain\obj\Debug\netcoreapp2.2\Reminder.Domain.AssemblyInfo.cs
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Domain\bin\Debug\netcoreapp2.2\Reminder.Domain.deps.json
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Domain\bin\Debug\netcoreapp2.2\Reminder.Domain.dll
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Domain\bin\Debug\netcoreapp2.2\Reminder.Domain.pdb
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Domain\bin\Debug\netcoreapp2.2\Reminder.Receiver.dll
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Domain\bin\Debug\netcoreapp2.2\Reminder.Sender.dll
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Domain\bin\Debug\netcoreapp2.2\Reminder.Storage.dll
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Domain\bin\Debug\netcoreapp2.2\Reminder.Receiver.pdb
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Domain\bin\Debug\netcoreapp2.2\Reminder.Sender.pdb
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Domain\bin\Debug\netcoreapp2.2\Reminder.Storage.pdb
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Domain\obj\Debug\netcoreapp2.2\Reminder.Domain.csproj.CopyComplete
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Domain\obj\Debug\netcoreapp2.2\Reminder.Domain.dll
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Domain\obj\Debug\netcoreapp2.2\Reminder.Domain.pdb

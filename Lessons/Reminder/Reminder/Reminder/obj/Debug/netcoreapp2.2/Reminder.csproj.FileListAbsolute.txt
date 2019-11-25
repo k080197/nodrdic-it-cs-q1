@@ -1,0 +1,4 @@
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder\obj\Debug\netcoreapp2.2\Reminder.csprojAssemblyReference.cache
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder\obj\Debug\netcoreapp2.2\Reminder.csproj.CoreCompileInputs.cache
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder\obj\Debug\netcoreapp2.2\Reminder.AssemblyInfoInputs.cache
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder\obj\Debug\netcoreapp2.2\Reminder.AssemblyInfo.cs

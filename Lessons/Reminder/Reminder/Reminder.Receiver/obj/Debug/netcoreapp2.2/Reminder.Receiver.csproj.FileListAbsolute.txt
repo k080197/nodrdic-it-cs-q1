@@ -7,3 +7,12 @@ C:\Users\User\Desktop\твоя\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Remind
 C:\Users\User\Desktop\твоя\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Receiver\obj\Debug\netcoreapp2.2\Reminder.Receiver.AssemblyInfo.cs
 C:\Users\User\Desktop\твоя\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Receiver\obj\Debug\netcoreapp2.2\Reminder.Receiver.dll
 C:\Users\User\Desktop\твоя\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Receiver\obj\Debug\netcoreapp2.2\Reminder.Receiver.pdb
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Receiver\bin\Debug\netcoreapp2.2\Reminder.Receiver.deps.json
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Receiver\bin\Debug\netcoreapp2.2\Reminder.Receiver.dll
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Receiver\bin\Debug\netcoreapp2.2\Reminder.Receiver.pdb
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Receiver\obj\Debug\netcoreapp2.2\Reminder.Receiver.csprojAssemblyReference.cache
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Receiver\obj\Debug\netcoreapp2.2\Reminder.Receiver.csproj.CoreCompileInputs.cache
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Receiver\obj\Debug\netcoreapp2.2\Reminder.Receiver.AssemblyInfoInputs.cache
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Receiver\obj\Debug\netcoreapp2.2\Reminder.Receiver.AssemblyInfo.cs
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Receiver\obj\Debug\netcoreapp2.2\Reminder.Receiver.dll
+C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Receiver\obj\Debug\netcoreapp2.2\Reminder.Receiver.pdb
