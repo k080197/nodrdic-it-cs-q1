@@ -22,3 +22,14 @@ C:\Users\User\Desktop\твоя\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Remind
 C:\Users\User\Desktop\твоя\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Storage.Memory\obj\Debug\netstandard2.0\Reminder.Storage.Memory.csproj.CopyComplete
 C:\Users\User\Desktop\твоя\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Storage.Memory\obj\Debug\netstandard2.0\Reminder.Storage.Memory.dll
 C:\Users\User\Desktop\твоя\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Storage.Memory\obj\Debug\netstandard2.0\Reminder.Storage.Memory.pdb
+C:\Users\Sotskov\Source\Repos\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Storage.Memory\bin\Debug\netstandard2.0\Reminder.Storage.Memory.deps.json
+C:\Users\Sotskov\Source\Repos\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Storage.Memory\bin\Debug\netstandard2.0\Reminder.Storage.Memory.dll
+C:\Users\Sotskov\Source\Repos\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Storage.Memory\bin\Debug\netstandard2.0\Reminder.Storage.Memory.pdb
+C:\Users\Sotskov\Source\Repos\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Storage.Memory\bin\Debug\netstandard2.0\Reminder.Storage.dll
+C:\Users\Sotskov\Source\Repos\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Storage.Memory\bin\Debug\netstandard2.0\Reminder.Storage.pdb
+C:\Users\Sotskov\Source\Repos\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Storage.Memory\obj\Debug\netstandard2.0\Reminder.Storage.Memory.csprojAssemblyReference.cache
+C:\Users\Sotskov\Source\Repos\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Storage.Memory\obj\Debug\netstandard2.0\Reminder.Storage.Memory.AssemblyInfoInputs.cache
+C:\Users\Sotskov\Source\Repos\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Storage.Memory\obj\Debug\netstandard2.0\Reminder.Storage.Memory.AssemblyInfo.cs
+C:\Users\Sotskov\Source\Repos\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Storage.Memory\obj\Debug\netstandard2.0\Reminder.Storage.Memory.csproj.CopyComplete
+C:\Users\Sotskov\Source\Repos\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Storage.Memory\obj\Debug\netstandard2.0\Reminder.Storage.Memory.dll
+C:\Users\Sotskov\Source\Repos\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Storage.Memory\obj\Debug\netstandard2.0\Reminder.Storage.Memory.pdb

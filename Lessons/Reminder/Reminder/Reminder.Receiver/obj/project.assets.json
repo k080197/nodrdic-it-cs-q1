@@ -686,23 +686,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\k0801\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Sotskov\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\k0801\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Receiver\\Reminder.Receiver.csproj",
+      "projectUniqueName": "C:\\Users\\Sotskov\\Source\\Repos\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Receiver\\Reminder.Receiver.csproj",
       "projectName": "Reminder.Receiver",
-      "projectPath": "C:\\Users\\k0801\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Receiver\\Reminder.Receiver.csproj",
-      "packagesPath": "C:\\Users\\k0801\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\k0801\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Receiver\\obj\\",
+      "projectPath": "C:\\Users\\Sotskov\\Source\\Repos\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Receiver\\Reminder.Receiver.csproj",
+      "packagesPath": "C:\\Users\\Sotskov\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sotskov\\Source\\Repos\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Receiver\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\k0801\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sotskov\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -734,10 +730,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,0 +1,16 @@
+C:\Users\Sotskov\source\repos\First\First\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\Sotskov\source\repos\First\First\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\Sotskov\source\repos\First\First\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\Sotskov\source\repos\First\First\bin\Debug\netcoreapp2.2\First.deps.json
+C:\Users\Sotskov\source\repos\First\First\bin\Debug\netcoreapp2.2\First.runtimeconfig.json
+C:\Users\Sotskov\source\repos\First\First\bin\Debug\netcoreapp2.2\First.runtimeconfig.dev.json
+C:\Users\Sotskov\source\repos\First\First\bin\Debug\netcoreapp2.2\First.dll
+C:\Users\Sotskov\source\repos\First\First\bin\Debug\netcoreapp2.2\First.pdb
+C:\Users\Sotskov\source\repos\First\First\obj\Debug\netcoreapp2.2\First.csprojAssemblyReference.cache
+C:\Users\Sotskov\source\repos\First\First\obj\Debug\netcoreapp2.2\First.RazorAssemblyInfo.cache
+C:\Users\Sotskov\source\repos\First\First\obj\Debug\netcoreapp2.2\First.RazorAssemblyInfo.cs
+C:\Users\Sotskov\source\repos\First\First\obj\Debug\netcoreapp2.2\First.AssemblyInfoInputs.cache
+C:\Users\Sotskov\source\repos\First\First\obj\Debug\netcoreapp2.2\First.AssemblyInfo.cs
+C:\Users\Sotskov\source\repos\First\First\obj\Debug\netcoreapp2.2\First.RazorTargetAssemblyInfo.cache
+C:\Users\Sotskov\source\repos\First\First\obj\Debug\netcoreapp2.2\First.dll
+C:\Users\Sotskov\source\repos\First\First\obj\Debug\netcoreapp2.2\First.pdb

@@ -16,3 +16,11 @@ C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender\obj\De
 C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender\obj\Debug\netcoreapp2.2\Reminder.Sender.AssemblyInfo.cs
 C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender\obj\Debug\netcoreapp2.2\Reminder.Sender.dll
 C:\Users\k0801\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender\obj\Debug\netcoreapp2.2\Reminder.Sender.pdb
+C:\Users\Sotskov\Source\Repos\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender\bin\Debug\netcoreapp2.2\Reminder.Sender.deps.json
+C:\Users\Sotskov\Source\Repos\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender\bin\Debug\netcoreapp2.2\Reminder.Sender.dll
+C:\Users\Sotskov\Source\Repos\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender\bin\Debug\netcoreapp2.2\Reminder.Sender.pdb
+C:\Users\Sotskov\Source\Repos\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender\obj\Debug\netcoreapp2.2\Reminder.Sender.csprojAssemblyReference.cache
+C:\Users\Sotskov\Source\Repos\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender\obj\Debug\netcoreapp2.2\Reminder.Sender.AssemblyInfoInputs.cache
+C:\Users\Sotskov\Source\Repos\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender\obj\Debug\netcoreapp2.2\Reminder.Sender.AssemblyInfo.cs
+C:\Users\Sotskov\Source\Repos\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender\obj\Debug\netcoreapp2.2\Reminder.Sender.dll
+C:\Users\Sotskov\Source\Repos\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender\obj\Debug\netcoreapp2.2\Reminder.Sender.pdb
