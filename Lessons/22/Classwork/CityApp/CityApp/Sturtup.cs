@@ -27,7 +27,11 @@ namespace CityApp
 
         private static void ConfigureRoutes(IRouteBuilder builder)
         {
-            builder.MapRoute(name: "DefaultControllerAction", template: "{controller}/{action}/", defaults: null);
+            builder.MapRoute(name: "DefaultControllerAction", template: "{controller}/{action}/", defaults: new
+            {
+                Controller = "city",
+                Action = "list"
+            });
         }
     }
 }

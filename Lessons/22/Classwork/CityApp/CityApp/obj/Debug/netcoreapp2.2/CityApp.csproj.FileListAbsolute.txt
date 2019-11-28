@@ -11,3 +11,4 @@ C:\Users\User\Desktop\nodrdic-it-cs-q1\Lessons\22\Classwork\CityApp\CityApp\obj\
 C:\Users\User\Desktop\nodrdic-it-cs-q1\Lessons\22\Classwork\CityApp\CityApp\obj\Debug\netcoreapp2.2\CityApp.RazorAssemblyInfo.cs
 C:\Users\User\Desktop\nodrdic-it-cs-q1\Lessons\22\Classwork\CityApp\CityApp\obj\Debug\netcoreapp2.2\CityApp.RazorTargetAssemblyInfo.cache
 C:\Users\User\Desktop\nodrdic-it-cs-q1\Lessons\22\Classwork\CityApp\CityApp\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\User\Desktop\nodrdic-it-cs-q1\Lessons\22\Classwork\CityApp\CityApp\obj\Debug\netcoreapp2.2\CityApp.csprojAssemblyReference.cache
