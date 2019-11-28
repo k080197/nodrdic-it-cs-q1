@@ -1,0 +1,10 @@
+C:\Users\User\Desktop\nodrdic-it-cs-q1\Lessons\22\Classwork\CityApp\CityApp\bin\Debug\netcoreapp3.0\CityApp.exe
+C:\Users\User\Desktop\nodrdic-it-cs-q1\Lessons\22\Classwork\CityApp\CityApp\bin\Debug\netcoreapp3.0\CityApp.deps.json
+C:\Users\User\Desktop\nodrdic-it-cs-q1\Lessons\22\Classwork\CityApp\CityApp\bin\Debug\netcoreapp3.0\CityApp.runtimeconfig.json
+C:\Users\User\Desktop\nodrdic-it-cs-q1\Lessons\22\Classwork\CityApp\CityApp\bin\Debug\netcoreapp3.0\CityApp.runtimeconfig.dev.json
+C:\Users\User\Desktop\nodrdic-it-cs-q1\Lessons\22\Classwork\CityApp\CityApp\bin\Debug\netcoreapp3.0\CityApp.dll
+C:\Users\User\Desktop\nodrdic-it-cs-q1\Lessons\22\Classwork\CityApp\CityApp\bin\Debug\netcoreapp3.0\CityApp.pdb
+C:\Users\User\Desktop\nodrdic-it-cs-q1\Lessons\22\Classwork\CityApp\CityApp\obj\Debug\netcoreapp3.0\CityApp.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\nodrdic-it-cs-q1\Lessons\22\Classwork\CityApp\CityApp\obj\Debug\netcoreapp3.0\CityApp.AssemblyInfo.cs
+C:\Users\User\Desktop\nodrdic-it-cs-q1\Lessons\22\Classwork\CityApp\CityApp\obj\Debug\netcoreapp3.0\CityApp.dll
+C:\Users\User\Desktop\nodrdic-it-cs-q1\Lessons\22\Classwork\CityApp\CityApp\obj\Debug\netcoreapp3.0\CityApp.pdb
