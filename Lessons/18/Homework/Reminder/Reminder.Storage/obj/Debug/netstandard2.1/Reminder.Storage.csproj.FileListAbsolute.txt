@@ -1,0 +1,16 @@
+/Users/artemtrofimushkin/Projects/Reminder/Reminder.Storage/bin/Debug/netstandard2.1/Reminder.Storage.deps.json
+/Users/artemtrofimushkin/Projects/Reminder/Reminder.Storage/bin/Debug/netstandard2.1/Reminder.Storage.dll
+/Users/artemtrofimushkin/Projects/Reminder/Reminder.Storage/bin/Debug/netstandard2.1/Reminder.Storage.pdb
+/Users/artemtrofimushkin/Projects/Reminder/Reminder.Storage/obj/Debug/netstandard2.1/Reminder.Storage.csprojAssemblyReference.cache
+/Users/artemtrofimushkin/Projects/Reminder/Reminder.Storage/obj/Debug/netstandard2.1/Reminder.Storage.AssemblyInfoInputs.cache
+/Users/artemtrofimushkin/Projects/Reminder/Reminder.Storage/obj/Debug/netstandard2.1/Reminder.Storage.AssemblyInfo.cs
+/Users/artemtrofimushkin/Projects/Reminder/Reminder.Storage/obj/Debug/netstandard2.1/Reminder.Storage.dll
+/Users/artemtrofimushkin/Projects/Reminder/Reminder.Storage/obj/Debug/netstandard2.1/Reminder.Storage.pdb
+C:\Users\Sotskov\Desktop\Reminder\Reminder.Storage\bin\Debug\netstandard2.1\Reminder.Storage.deps.json
+C:\Users\Sotskov\Desktop\Reminder\Reminder.Storage\bin\Debug\netstandard2.1\Reminder.Storage.dll
+C:\Users\Sotskov\Desktop\Reminder\Reminder.Storage\bin\Debug\netstandard2.1\Reminder.Storage.pdb
+C:\Users\Sotskov\Desktop\Reminder\Reminder.Storage\obj\Debug\netstandard2.1\Reminder.Storage.csprojAssemblyReference.cache
+C:\Users\Sotskov\Desktop\Reminder\Reminder.Storage\obj\Debug\netstandard2.1\Reminder.Storage.AssemblyInfoInputs.cache
+C:\Users\Sotskov\Desktop\Reminder\Reminder.Storage\obj\Debug\netstandard2.1\Reminder.Storage.AssemblyInfo.cs
+C:\Users\Sotskov\Desktop\Reminder\Reminder.Storage\obj\Debug\netstandard2.1\Reminder.Storage.dll
+C:\Users\Sotskov\Desktop\Reminder\Reminder.Storage\obj\Debug\netstandard2.1\Reminder.Storage.pdb

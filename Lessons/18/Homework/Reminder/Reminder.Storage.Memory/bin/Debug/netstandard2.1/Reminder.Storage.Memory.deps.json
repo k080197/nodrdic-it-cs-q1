@@ -1,0 +1,37 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.1/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.1": {},
+    ".NETStandard,Version=v2.1/": {
+      "Reminder.Storage.Memory/1.0.0": {
+        "dependencies": {
+          "Reminder.Storage": "1.0.0"
+        },
+        "runtime": {
+          "Reminder.Storage.Memory.dll": {}
+        }
+      },
+      "Reminder.Storage/1.0.0": {
+        "runtime": {
+          "Reminder.Storage.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Reminder.Storage.Memory/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reminder.Storage/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
