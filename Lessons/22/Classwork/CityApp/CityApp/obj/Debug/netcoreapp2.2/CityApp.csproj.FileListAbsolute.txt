@@ -12,3 +12,17 @@ C:\Users\User\Desktop\nodrdic-it-cs-q1\Lessons\22\Classwork\CityApp\CityApp\obj\
 C:\Users\User\Desktop\nodrdic-it-cs-q1\Lessons\22\Classwork\CityApp\CityApp\obj\Debug\netcoreapp2.2\CityApp.RazorTargetAssemblyInfo.cache
 C:\Users\User\Desktop\nodrdic-it-cs-q1\Lessons\22\Classwork\CityApp\CityApp\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
 C:\Users\User\Desktop\nodrdic-it-cs-q1\Lessons\22\Classwork\CityApp\CityApp\obj\Debug\netcoreapp2.2\CityApp.csprojAssemblyReference.cache
+C:\Users\k0801\Desktop\nodrdic-it-cs-q1\Lessons\22\Classwork\CityApp\CityApp\bin\Debug\netcoreapp2.2\CityApp.deps.json
+C:\Users\k0801\Desktop\nodrdic-it-cs-q1\Lessons\22\Classwork\CityApp\CityApp\bin\Debug\netcoreapp2.2\CityApp.runtimeconfig.json
+C:\Users\k0801\Desktop\nodrdic-it-cs-q1\Lessons\22\Classwork\CityApp\CityApp\bin\Debug\netcoreapp2.2\CityApp.runtimeconfig.dev.json
+C:\Users\k0801\Desktop\nodrdic-it-cs-q1\Lessons\22\Classwork\CityApp\CityApp\bin\Debug\netcoreapp2.2\CityApp.dll
+C:\Users\k0801\Desktop\nodrdic-it-cs-q1\Lessons\22\Classwork\CityApp\CityApp\bin\Debug\netcoreapp2.2\CityApp.pdb
+C:\Users\k0801\Desktop\nodrdic-it-cs-q1\Lessons\22\Classwork\CityApp\CityApp\obj\Debug\netcoreapp2.2\CityApp.csprojAssemblyReference.cache
+C:\Users\k0801\Desktop\nodrdic-it-cs-q1\Lessons\22\Classwork\CityApp\CityApp\obj\Debug\netcoreapp2.2\CityApp.csproj.CoreCompileInputs.cache
+C:\Users\k0801\Desktop\nodrdic-it-cs-q1\Lessons\22\Classwork\CityApp\CityApp\obj\Debug\netcoreapp2.2\CityApp.RazorAssemblyInfo.cache
+C:\Users\k0801\Desktop\nodrdic-it-cs-q1\Lessons\22\Classwork\CityApp\CityApp\obj\Debug\netcoreapp2.2\CityApp.RazorAssemblyInfo.cs
+C:\Users\k0801\Desktop\nodrdic-it-cs-q1\Lessons\22\Classwork\CityApp\CityApp\obj\Debug\netcoreapp2.2\CityApp.AssemblyInfoInputs.cache
+C:\Users\k0801\Desktop\nodrdic-it-cs-q1\Lessons\22\Classwork\CityApp\CityApp\obj\Debug\netcoreapp2.2\CityApp.AssemblyInfo.cs
+C:\Users\k0801\Desktop\nodrdic-it-cs-q1\Lessons\22\Classwork\CityApp\CityApp\obj\Debug\netcoreapp2.2\CityApp.RazorTargetAssemblyInfo.cache
+C:\Users\k0801\Desktop\nodrdic-it-cs-q1\Lessons\22\Classwork\CityApp\CityApp\obj\Debug\netcoreapp2.2\CityApp.dll
+C:\Users\k0801\Desktop\nodrdic-it-cs-q1\Lessons\22\Classwork\CityApp\CityApp\obj\Debug\netcoreapp2.2\CityApp.pdb

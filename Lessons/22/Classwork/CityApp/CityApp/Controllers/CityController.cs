@@ -1,80 +1,102 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
+﻿using System.Linq;
+using CityApp.Models;
+using CityApp.Services;
+using CityApp.ViewModel;
+using Microsoft.AspNetCore.Mvc;
 using System.Text;
+using System;
 
 namespace CityApp.Controllers
 {
-    // Обработка логики по управлению городами
-
-    public class City
-    {
-        public Guid Id { get; set; }
-        public string Name { get; set; }
-        public int Population { get; set; }
-    }
-
-    public class CityStorage
-    {
-        private static CityStorage _instance;
-
-        public static CityStorage Instance =>
-            _instance ?? (_instance = new CityStorage());
-        private CityStorage()
-        {
-            _cities =
-            new List<City>
-            {
-                new City
-                {
-                    Id = Guid.NewGuid(),
-                    Name = "Москва",
-                    Population = 16_000_000
-                },
-                new City
-                {
-                    Id = Guid.NewGuid(),
-                    Name = "Екатеринбург",
-                    Population = 3_000_000
-                },
-                new City
-                {
-                    Id = Guid.NewGuid(),
-                    Name = "Санкт-Петербург",
-                    Population = 5_000_000
-                }
-            };
-        }
-
-        public City[] GetAll()
-        {
-            return _cities.ToArray();
-        }
-
-        private readonly List<City> _cities;
-
-        public void Create(City city)
-        {
-            _cities.Add(city);
-        }
-    }
 
     // /city/list
     public class CityController : Controller
     {
+        [HttpGet("cities/{id}")]
+        [HttpGet("api/city/{id}")]
+        public IActionResult Get(Guid id)
+        {
+            if (id == Guid.Empty)
+            {
+                return BadRequest();
+            }
+
+            var city = CityStorage.Instance.GetById(id);
+
+            if (city == null)
+            {
+                return NotFound();
+            }
+
+            return Json(new DetailCityViewModel(city));
+        }
+
         [HttpGet("cities")]
         public IActionResult List()
         {
-            var cities = CityStorage.Instance.GetAll();
+            var cities = CityStorage.Instance
+                .GetAll()
+                .Select(x => new CityViewModel(x))
+                .OrderBy(x => x.Name)
+                .ToArray();
 
             return base.Json(cities);
         }
 
         [HttpPost("cities")]
         [HttpPost("api/city")]
-        public IActionResult Create([FromBody] City city)
+        public IActionResult Create([FromBody] CreateCityViewModel city)
         {
-            CityStorage.Instance.Create(city);
+            if (city == null)
+            {
+                return BadRequest();
+            }
+
+            if (!ModelState.IsValid)
+            {
+                var models = ModelState
+                    .Select(pair => new ValidationErrorViewModel(pair.Key, pair.Value));
+
+                return BadRequest(new { Properties = models });
+            }
+            
+            var model = new City(
+                city.Name,
+                city.Description,
+                city.Population);
+            CityStorage.Instance.Create(model);
+
+            return Ok();
+        }
+
+        [HttpPut("cities/{id}")]
+        [HttpPut("api/city/{id}")]
+        public IActionResult Put(Guid id, [FromBody] CreateCityViewModel city)
+        {
+            if (id == Guid.Empty || city == null)
+            {
+                return BadRequest();
+            }
+
+            var _city = CityStorage.Instance.GetById(id);
+
+            _city.Name = city.Name;
+            _city.Description = city.Description;
+            _city.Population = city.Population;
+
+            return Ok();
+        }
+
+        [HttpDelete("cities/{id}")]
+        [HttpDelete("api/city/{id}")]
+        public IActionResult Delete(Guid id)
+        {
+            if (id == Guid.Empty)
+            {
+                return BadRequest();
+            }
+
+            CityStorage.Instance.Delete(CityStorage.Instance.GetById(id));
 
             return Ok();
         }
