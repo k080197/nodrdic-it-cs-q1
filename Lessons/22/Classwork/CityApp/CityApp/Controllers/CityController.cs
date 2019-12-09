@@ -5,6 +5,7 @@ using CityApp.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 using System.Text;
 using System;
+using Microsoft.Extensions.Logging;
 
 namespace CityApp.Controllers
 {
@@ -12,6 +13,15 @@ namespace CityApp.Controllers
     // /city/list
     public class CityController : Controller
     {
+        private ILogger _logger;
+        private CityStorage _storage;
+
+        public CityController(ILogger logger, CityStorage storage)
+        {
+            _logger = logger;
+            _storage = storage;
+        }
+
         [HttpGet("cities/{id}")]
         [HttpGet("api/city/{id}")]
         public IActionResult Get(Guid id)
@@ -21,7 +31,7 @@ namespace CityApp.Controllers
                 return BadRequest();
             }
 
-            var city = CityStorage.Instance.GetById(id);
+            var city = _storage.GetById(id);
 
             if (city == null)
             {
@@ -34,7 +44,7 @@ namespace CityApp.Controllers
         [HttpGet("cities")]
         public IActionResult List()
         {
-            var cities = CityStorage.Instance
+            var cities = _storage
                 .GetAll()
                 .Select(x => new CityViewModel(x))
                 .OrderBy(x => x.Name)
@@ -64,7 +74,7 @@ namespace CityApp.Controllers
                 city.Name,
                 city.Description,
                 city.Population);
-            CityStorage.Instance.Create(model);
+            _storage.Create(model);
 
             return Ok();
         }
@@ -78,7 +88,7 @@ namespace CityApp.Controllers
                 return BadRequest();
             }
 
-            var _city = CityStorage.Instance.GetById(id);
+            var _city = _storage.GetById(id);
 
             _city.Name = city.Name;
             _city.Description = city.Description;
@@ -96,7 +106,7 @@ namespace CityApp.Controllers
                 return BadRequest();
             }
 
-            CityStorage.Instance.Delete(CityStorage.Instance.GetById(id));
+            _storage.Delete(_storage.GetById(id));
 
             return Ok();
         }
