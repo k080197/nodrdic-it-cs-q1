@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace CityApp.ViewModel
 {
-    public class CreateCityViewModel
+    public class CreateOrUpdateCityViewModel
     {
         [Required(ErrorMessage = "Имя города не указано.")]
         [MaxLength(256)]
@@ -19,7 +19,7 @@ namespace CityApp.ViewModel
         [NotCompare(nameof(Name))]
         public string Description { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Численность населения не указана.")]
         [Range(0, 120_000_000)]
         public int Population { get; set; }
     }

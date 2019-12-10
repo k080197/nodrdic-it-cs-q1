@@ -55,7 +55,7 @@ namespace CityApp.Controllers
 
         [HttpPost("cities")]
         [HttpPost("api/city")]
-        public IActionResult Create([FromBody] CreateCityViewModel city)
+        public IActionResult Create([FromBody] CreateOrUpdateCityViewModel city)
         {
             if (city == null)
             {
@@ -81,7 +81,7 @@ namespace CityApp.Controllers
 
         [HttpPut("cities/{id}")]
         [HttpPut("api/city/{id}")]
-        public IActionResult Put(Guid id, [FromBody] CreateCityViewModel city)
+        public IActionResult Put(Guid id, [FromBody] CreateOrUpdateCityViewModel city)
         {
             if (id == Guid.Empty || city == null)
             {
