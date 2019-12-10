@@ -5812,11 +5812,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sotskov\\Source\\Repos\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Storage.Memory.Tests\\Reminder.Storage.Memory.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Storage.Memory.Tests\\Reminder.Storage.Memory.Tests.csproj",
       "projectName": "Reminder.Storage.Memory.Tests",
-      "projectPath": "C:\\Users\\Sotskov\\Source\\Repos\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Storage.Memory.Tests\\Reminder.Storage.Memory.Tests.csproj",
+      "projectPath": "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Storage.Memory.Tests\\Reminder.Storage.Memory.Tests.csproj",
       "packagesPath": "C:\\Users\\Sotskov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sotskov\\Source\\Repos\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Storage.Memory.Tests\\obj\\",
+      "outputPath": "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Storage.Memory.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sotskov\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5832,8 +5832,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\Sotskov\\Source\\Repos\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Storage.Memory\\Reminder.Storage.Memory.csproj": {
-              "projectPath": "C:\\Users\\Sotskov\\Source\\Repos\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Storage.Memory\\Reminder.Storage.Memory.csproj"
+            "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Storage.Memory\\Reminder.Storage.Memory.csproj": {
+              "projectPath": "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Storage.Memory\\Reminder.Storage.Memory.csproj"
             }
           }
         }

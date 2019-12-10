@@ -7,7 +7,15 @@ namespace Reminder.Storage
 		public DateTimeOffset? DateTime { get; private set; }
 		public ReminderItemStatus? Status { get; private set; }
 
-		public ReminderItemFilter At(DateTimeOffset datetime)
+        public ReminderItemFilter(
+    ReminderItemStatus? status = default,
+    DateTimeOffset? dateTime = default)
+        {
+            Status = status;
+            DateTime = dateTime;
+        }
+
+        public ReminderItemFilter At(DateTimeOffset datetime)
 		{
 			DateTime = datetime;
 			return this;

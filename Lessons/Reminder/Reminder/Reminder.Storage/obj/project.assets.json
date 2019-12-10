@@ -184,11 +184,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sotskov\\Source\\Repos\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Storage\\Reminder.Storage.csproj",
+      "projectUniqueName": "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Storage\\Reminder.Storage.csproj",
       "projectName": "Reminder.Storage",
-      "projectPath": "C:\\Users\\Sotskov\\Source\\Repos\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Storage\\Reminder.Storage.csproj",
+      "projectPath": "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Storage\\Reminder.Storage.csproj",
       "packagesPath": "C:\\Users\\Sotskov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sotskov\\Source\\Repos\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Storage\\obj\\",
+      "outputPath": "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Storage\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sotskov\\AppData\\Roaming\\NuGet\\NuGet.Config",

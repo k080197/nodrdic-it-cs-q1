@@ -10,7 +10,7 @@ namespace Reminder
 	{
 		static void Main(string[] args)
 		{
-			var key = "";
+			var key = "910292812:AAG11CN09Q4Q9EjW-4PSyJWzHbtQw82C74M";
             using (var service = new ReminderService(
                 storage: new ReminderStorage(),
                 sender: new ReminderSender(key),

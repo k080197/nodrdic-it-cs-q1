@@ -3740,11 +3740,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sotskov\\Source\\Repos\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Sender.Telegram\\Reminder.Sender.Telegram.csproj",
+      "projectUniqueName": "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Sender.Telegram\\Reminder.Sender.Telegram.csproj",
       "projectName": "Reminder.Sender.Telegram",
-      "projectPath": "C:\\Users\\Sotskov\\Source\\Repos\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Sender.Telegram\\Reminder.Sender.Telegram.csproj",
+      "projectPath": "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Sender.Telegram\\Reminder.Sender.Telegram.csproj",
       "packagesPath": "C:\\Users\\Sotskov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sotskov\\Source\\Repos\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Sender.Telegram\\obj\\",
+      "outputPath": "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Sender.Telegram\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sotskov\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3760,8 +3760,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Sotskov\\Source\\Repos\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Sender\\Reminder.Sender.csproj": {
-              "projectPath": "C:\\Users\\Sotskov\\Source\\Repos\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Sender\\Reminder.Sender.csproj"
+            "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Sender\\Reminder.Sender.csproj": {
+              "projectPath": "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Sender\\Reminder.Sender.csproj"
             }
           }
         }

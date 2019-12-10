@@ -5865,11 +5865,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sotskov\\Source\\Repos\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Domain.Test\\Reminder.Domain.Test.csproj",
+      "projectUniqueName": "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Domain.Test\\Reminder.Domain.Test.csproj",
       "projectName": "Reminder.Domain.Test",
-      "projectPath": "C:\\Users\\Sotskov\\Source\\Repos\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Domain.Test\\Reminder.Domain.Test.csproj",
+      "projectPath": "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Domain.Test\\Reminder.Domain.Test.csproj",
       "packagesPath": "C:\\Users\\Sotskov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sotskov\\Source\\Repos\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Domain.Test\\obj\\",
+      "outputPath": "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Domain.Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sotskov\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5885,14 +5885,14 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Sotskov\\Source\\Repos\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Domain\\Reminder.Domain.csproj": {
-              "projectPath": "C:\\Users\\Sotskov\\Source\\Repos\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Domain\\Reminder.Domain.csproj"
+            "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Domain\\Reminder.Domain.csproj": {
+              "projectPath": "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Domain\\Reminder.Domain.csproj"
             },
-            "C:\\Users\\Sotskov\\Source\\Repos\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Storage.Memory\\Reminder.Storage.Memory.csproj": {
-              "projectPath": "C:\\Users\\Sotskov\\Source\\Repos\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Storage.Memory\\Reminder.Storage.Memory.csproj"
+            "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Storage.Memory\\Reminder.Storage.Memory.csproj": {
+              "projectPath": "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Storage.Memory\\Reminder.Storage.Memory.csproj"
             },
-            "C:\\Users\\Sotskov\\Source\\Repos\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Storage\\Reminder.Storage.csproj": {
-              "projectPath": "C:\\Users\\Sotskov\\Source\\Repos\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Storage\\Reminder.Storage.csproj"
+            "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Storage\\Reminder.Storage.csproj": {
+              "projectPath": "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Storage\\Reminder.Storage.csproj"
             }
           }
         }

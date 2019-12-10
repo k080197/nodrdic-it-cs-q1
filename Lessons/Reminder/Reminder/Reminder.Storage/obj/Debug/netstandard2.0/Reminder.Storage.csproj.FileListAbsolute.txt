@@ -24,3 +24,11 @@ C:\Users\Sotskov\Source\Repos\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminde
 C:\Users\Sotskov\Source\Repos\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Storage\obj\Debug\netstandard2.0\Reminder.Storage.AssemblyInfo.cs
 C:\Users\Sotskov\Source\Repos\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Storage\obj\Debug\netstandard2.0\Reminder.Storage.dll
 C:\Users\Sotskov\Source\Repos\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Storage\obj\Debug\netstandard2.0\Reminder.Storage.pdb
+C:\Users\Sotskov\Desktop\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Storage\bin\Debug\netstandard2.0\Reminder.Storage.deps.json
+C:\Users\Sotskov\Desktop\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Storage\bin\Debug\netstandard2.0\Reminder.Storage.dll
+C:\Users\Sotskov\Desktop\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Storage\bin\Debug\netstandard2.0\Reminder.Storage.pdb
+C:\Users\Sotskov\Desktop\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Storage\obj\Debug\netstandard2.0\Reminder.Storage.AssemblyInfoInputs.cache
+C:\Users\Sotskov\Desktop\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Storage\obj\Debug\netstandard2.0\Reminder.Storage.AssemblyInfo.cs
+C:\Users\Sotskov\Desktop\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Storage\obj\Debug\netstandard2.0\Reminder.Storage.dll
+C:\Users\Sotskov\Desktop\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Storage\obj\Debug\netstandard2.0\Reminder.Storage.pdb
+C:\Users\Sotskov\Desktop\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Storage\obj\Debug\netstandard2.0\Reminder.Storage.csprojAssemblyReference.cache

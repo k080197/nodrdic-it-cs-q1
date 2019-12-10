@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sotskov\\Source\\Repos\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Receiver.Telegram\\Reminder.Receiver.Telegram.csproj": {}
+    "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Receiver.Telegram\\Reminder.Receiver.Telegram.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sotskov\\Source\\Repos\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Receiver.Telegram\\Reminder.Receiver.Telegram.csproj": {
+    "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Receiver.Telegram\\Reminder.Receiver.Telegram.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sotskov\\Source\\Repos\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Receiver.Telegram\\Reminder.Receiver.Telegram.csproj",
+        "projectUniqueName": "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Receiver.Telegram\\Reminder.Receiver.Telegram.csproj",
         "projectName": "Reminder.Receiver.Telegram",
-        "projectPath": "C:\\Users\\Sotskov\\Source\\Repos\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Receiver.Telegram\\Reminder.Receiver.Telegram.csproj",
+        "projectPath": "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Receiver.Telegram\\Reminder.Receiver.Telegram.csproj",
         "packagesPath": "C:\\Users\\Sotskov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sotskov\\Source\\Repos\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Receiver.Telegram\\obj\\",
+        "outputPath": "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Receiver.Telegram\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sotskov\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\Sotskov\\Source\\Repos\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Receiver\\Reminder.Receiver.csproj": {
-                "projectPath": "C:\\Users\\Sotskov\\Source\\Repos\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Receiver\\Reminder.Receiver.csproj"
+              "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Receiver\\Reminder.Receiver.csproj": {
+                "projectPath": "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Receiver\\Reminder.Receiver.csproj"
               }
             }
           }
@@ -67,14 +67,14 @@
         }
       }
     },
-    "C:\\Users\\Sotskov\\Source\\Repos\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Receiver\\Reminder.Receiver.csproj": {
+    "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Receiver\\Reminder.Receiver.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sotskov\\Source\\Repos\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Receiver\\Reminder.Receiver.csproj",
+        "projectUniqueName": "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Receiver\\Reminder.Receiver.csproj",
         "projectName": "Reminder.Receiver",
-        "projectPath": "C:\\Users\\Sotskov\\Source\\Repos\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Receiver\\Reminder.Receiver.csproj",
+        "projectPath": "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Receiver\\Reminder.Receiver.csproj",
         "packagesPath": "C:\\Users\\Sotskov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sotskov\\Source\\Repos\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Receiver\\obj\\",
+        "outputPath": "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\Reminder\\Reminder\\Reminder.Receiver\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sotskov\\AppData\\Roaming\\NuGet\\NuGet.Config",

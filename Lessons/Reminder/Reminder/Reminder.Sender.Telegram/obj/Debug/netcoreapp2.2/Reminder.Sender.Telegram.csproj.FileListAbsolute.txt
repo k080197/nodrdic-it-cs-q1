@@ -30,3 +30,14 @@ C:\Users\Sotskov\Source\Repos\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminde
 C:\Users\Sotskov\Source\Repos\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender.Telegram\obj\Debug\netcoreapp2.2\Reminder.Sender.Telegram.csproj.CopyComplete
 C:\Users\Sotskov\Source\Repos\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender.Telegram\obj\Debug\netcoreapp2.2\Reminder.Sender.Telegram.dll
 C:\Users\Sotskov\Source\Repos\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender.Telegram\obj\Debug\netcoreapp2.2\Reminder.Sender.Telegram.pdb
+C:\Users\Sotskov\Desktop\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender.Telegram\bin\Debug\netcoreapp2.2\Reminder.Sender.Telegram.deps.json
+C:\Users\Sotskov\Desktop\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender.Telegram\bin\Debug\netcoreapp2.2\Reminder.Sender.Telegram.dll
+C:\Users\Sotskov\Desktop\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender.Telegram\bin\Debug\netcoreapp2.2\Reminder.Sender.Telegram.pdb
+C:\Users\Sotskov\Desktop\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender.Telegram\bin\Debug\netcoreapp2.2\Reminder.Sender.dll
+C:\Users\Sotskov\Desktop\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender.Telegram\bin\Debug\netcoreapp2.2\Reminder.Sender.pdb
+C:\Users\Sotskov\Desktop\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender.Telegram\obj\Debug\netcoreapp2.2\Reminder.Sender.Telegram.csprojAssemblyReference.cache
+C:\Users\Sotskov\Desktop\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender.Telegram\obj\Debug\netcoreapp2.2\Reminder.Sender.Telegram.AssemblyInfoInputs.cache
+C:\Users\Sotskov\Desktop\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender.Telegram\obj\Debug\netcoreapp2.2\Reminder.Sender.Telegram.AssemblyInfo.cs
+C:\Users\Sotskov\Desktop\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender.Telegram\obj\Debug\netcoreapp2.2\Reminder.Sender.Telegram.csproj.CopyComplete
+C:\Users\Sotskov\Desktop\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender.Telegram\obj\Debug\netcoreapp2.2\Reminder.Sender.Telegram.dll
+C:\Users\Sotskov\Desktop\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Sender.Telegram\obj\Debug\netcoreapp2.2\Reminder.Sender.Telegram.pdb

@@ -24,3 +24,10 @@ C:\Users\Sotskov\Source\Repos\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminde
 C:\Users\Sotskov\Source\Repos\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Receiver\obj\Debug\netcoreapp2.2\Reminder.Receiver.AssemblyInfo.cs
 C:\Users\Sotskov\Source\Repos\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Receiver\obj\Debug\netcoreapp2.2\Reminder.Receiver.dll
 C:\Users\Sotskov\Source\Repos\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Receiver\obj\Debug\netcoreapp2.2\Reminder.Receiver.pdb
+C:\Users\Sotskov\Desktop\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Receiver\bin\Debug\netcoreapp2.2\Reminder.Receiver.deps.json
+C:\Users\Sotskov\Desktop\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Receiver\bin\Debug\netcoreapp2.2\Reminder.Receiver.dll
+C:\Users\Sotskov\Desktop\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Receiver\bin\Debug\netcoreapp2.2\Reminder.Receiver.pdb
+C:\Users\Sotskov\Desktop\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Receiver\obj\Debug\netcoreapp2.2\Reminder.Receiver.AssemblyInfoInputs.cache
+C:\Users\Sotskov\Desktop\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Receiver\obj\Debug\netcoreapp2.2\Reminder.Receiver.AssemblyInfo.cs
+C:\Users\Sotskov\Desktop\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Receiver\obj\Debug\netcoreapp2.2\Reminder.Receiver.dll
+C:\Users\Sotskov\Desktop\nodrdic-it-cs-q1\Lessons\Reminder\Reminder\Reminder.Receiver\obj\Debug\netcoreapp2.2\Reminder.Receiver.pdb
