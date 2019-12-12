@@ -1,0 +1,126 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "Reminder.Receiver/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Reminder.Receiver.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Reminder.Receiver.dll": {}
+        }
+      },
+      "Reminder.Sender/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Reminder.Sender.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Reminder.Sender.dll": {}
+        }
+      },
+      "Reminder.Storage/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Reminder.Storage.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Reminder.Storage.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Reminder.Receiver/1.0.0": {
+      "type": "project",
+      "path": "../Reminder.Receiver/Reminder.Receiver.csproj",
+      "msbuildProject": "../Reminder.Receiver/Reminder.Receiver.csproj"
+    },
+    "Reminder.Sender/1.0.0": {
+      "type": "project",
+      "path": "../Reminder.Sender/Reminder.Sender.csproj",
+      "msbuildProject": "../Reminder.Sender/Reminder.Sender.csproj"
+    },
+    "Reminder.Storage/1.0.0": {
+      "type": "project",
+      "path": "../Reminder.Storage/Reminder.Storage.csproj",
+      "msbuildProject": "../Reminder.Storage/Reminder.Storage.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "Reminder.Receiver >= 1.0.0",
+      "Reminder.Sender >= 1.0.0",
+      "Reminder.Storage >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Sotskov\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\25\\HomeWork\\Reminder.Domain\\Reminder.Domain.csproj",
+      "projectName": "Reminder.Domain",
+      "projectPath": "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\25\\HomeWork\\Reminder.Domain\\Reminder.Domain.csproj",
+      "packagesPath": "C:\\Users\\Sotskov\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\25\\HomeWork\\Reminder.Domain\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Sotskov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "projectReferences": {
+            "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\25\\HomeWork\\Reminder.Receiver\\Reminder.Receiver.csproj": {
+              "projectPath": "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\25\\HomeWork\\Reminder.Receiver\\Reminder.Receiver.csproj"
+            },
+            "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\25\\HomeWork\\Reminder.Sender\\Reminder.Sender.csproj": {
+              "projectPath": "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\25\\HomeWork\\Reminder.Sender\\Reminder.Sender.csproj"
+            },
+            "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\25\\HomeWork\\Reminder.Storage\\Reminder.Storage.csproj": {
+              "projectPath": "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\25\\HomeWork\\Reminder.Storage\\Reminder.Storage.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "NETStandard.Library": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

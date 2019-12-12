@@ -1,0 +1,54 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/artemtrofimushkin/Repositories/cs-course-q3/Lessons/25/HomeWork/Reminder.Receiver.Telegram/Reminder.Receiver.Telegram.csproj",
+    "projectName": "Reminder.Receiver.Telegram",
+    "projectPath": "/Users/artemtrofimushkin/Repositories/cs-course-q3/Lessons/25/HomeWork/Reminder.Receiver.Telegram/Reminder.Receiver.Telegram.csproj",
+    "outputPath": "/Users/artemtrofimushkin/Repositories/cs-course-q3/Lessons/25/HomeWork/Reminder.Receiver.Telegram/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netstandard2.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {},
+      "https://www.myget.org/F/dodopizza/api/v3/index.json": {}
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "projectReferences": {
+          "/Users/artemtrofimushkin/Repositories/cs-course-q3/Lessons/25/HomeWork/Reminder.Receiver/Reminder.Receiver.csproj": {
+            "projectPath": "/Users/artemtrofimushkin/Repositories/cs-course-q3/Lessons/25/HomeWork/Reminder.Receiver/Reminder.Receiver.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netstandard2.1": {
+      "dependencies": {
+        "Telegram.Bot": {
+          "target": "Package",
+          "version": "[15.0.0, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

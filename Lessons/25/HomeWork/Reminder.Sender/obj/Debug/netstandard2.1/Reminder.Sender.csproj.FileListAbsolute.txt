@@ -1,0 +1,7 @@
+/Users/artemtrofimushkin/Repositories/cs-course-q3/Lessons/25/HomeWork/Reminder.Sender/bin/Debug/netstandard2.1/Reminder.Sender.deps.json
+/Users/artemtrofimushkin/Repositories/cs-course-q3/Lessons/25/HomeWork/Reminder.Sender/bin/Debug/netstandard2.1/Reminder.Sender.dll
+/Users/artemtrofimushkin/Repositories/cs-course-q3/Lessons/25/HomeWork/Reminder.Sender/bin/Debug/netstandard2.1/Reminder.Sender.pdb
+/Users/artemtrofimushkin/Repositories/cs-course-q3/Lessons/25/HomeWork/Reminder.Sender/obj/Debug/netstandard2.1/Reminder.Sender.AssemblyInfoInputs.cache
+/Users/artemtrofimushkin/Repositories/cs-course-q3/Lessons/25/HomeWork/Reminder.Sender/obj/Debug/netstandard2.1/Reminder.Sender.AssemblyInfo.cs
+/Users/artemtrofimushkin/Repositories/cs-course-q3/Lessons/25/HomeWork/Reminder.Sender/obj/Debug/netstandard2.1/Reminder.Sender.dll
+/Users/artemtrofimushkin/Repositories/cs-course-q3/Lessons/25/HomeWork/Reminder.Sender/obj/Debug/netstandard2.1/Reminder.Sender.pdb

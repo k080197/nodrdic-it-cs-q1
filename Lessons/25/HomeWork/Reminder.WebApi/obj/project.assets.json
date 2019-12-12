@@ -1,0 +1,113 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Reminder.Storage/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Reminder.Storage.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Reminder.Storage.dll": {}
+        }
+      },
+      "Reminder.Storage.Memory/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Reminder.Storage": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Reminder.Storage.Memory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Reminder.Storage.Memory.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Reminder.Storage/1.0.0": {
+      "type": "project",
+      "path": "../Reminder.Storage/Reminder.Storage.csproj",
+      "msbuildProject": "../Reminder.Storage/Reminder.Storage.csproj"
+    },
+    "Reminder.Storage.Memory/1.0.0": {
+      "type": "project",
+      "path": "../Reminder.Storage.Memory/Reminder.Storage.Memory.csproj",
+      "msbuildProject": "../Reminder.Storage.Memory/Reminder.Storage.Memory.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": [
+      "Reminder.Storage >= 1.0.0",
+      "Reminder.Storage.Memory >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Sotskov\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\25\\HomeWork\\Reminder.WebApi\\Reminder.WebApi.csproj",
+      "projectName": "Reminder.WebApi",
+      "projectPath": "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\25\\HomeWork\\Reminder.WebApi\\Reminder.WebApi.csproj",
+      "packagesPath": "C:\\Users\\Sotskov\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\25\\HomeWork\\Reminder.WebApi\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Sotskov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "projectReferences": {
+            "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\25\\HomeWork\\Reminder.Storage.Memory\\Reminder.Storage.Memory.csproj": {
+              "projectPath": "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\25\\HomeWork\\Reminder.Storage.Memory\\Reminder.Storage.Memory.csproj"
+            },
+            "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\25\\HomeWork\\Reminder.Storage\\Reminder.Storage.csproj": {
+              "projectPath": "C:\\Users\\Sotskov\\Desktop\\nodrdic-it-cs-q1\\Lessons\\25\\HomeWork\\Reminder.Storage\\Reminder.Storage.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+/Users/artemtrofimushkin/Repositories/cs-course-q3/Lessons/25/HomeWork/Reminder.Receiver/bin/Debug/netstandard2.1/Reminder.Receiver.deps.json
+/Users/artemtrofimushkin/Repositories/cs-course-q3/Lessons/25/HomeWork/Reminder.Receiver/bin/Debug/netstandard2.1/Reminder.Receiver.dll
+/Users/artemtrofimushkin/Repositories/cs-course-q3/Lessons/25/HomeWork/Reminder.Receiver/bin/Debug/netstandard2.1/Reminder.Receiver.pdb
+/Users/artemtrofimushkin/Repositories/cs-course-q3/Lessons/25/HomeWork/Reminder.Receiver/obj/Debug/netstandard2.1/Reminder.Receiver.csprojAssemblyReference.cache
+/Users/artemtrofimushkin/Repositories/cs-course-q3/Lessons/25/HomeWork/Reminder.Receiver/obj/Debug/netstandard2.1/Reminder.Receiver.AssemblyInfoInputs.cache
+/Users/artemtrofimushkin/Repositories/cs-course-q3/Lessons/25/HomeWork/Reminder.Receiver/obj/Debug/netstandard2.1/Reminder.Receiver.AssemblyInfo.cs
+/Users/artemtrofimushkin/Repositories/cs-course-q3/Lessons/25/HomeWork/Reminder.Receiver/obj/Debug/netstandard2.1/Reminder.Receiver.dll
+/Users/artemtrofimushkin/Repositories/cs-course-q3/Lessons/25/HomeWork/Reminder.Receiver/obj/Debug/netstandard2.1/Reminder.Receiver.pdb

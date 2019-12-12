@@ -1,0 +1,11 @@
+/Users/artemtrofimushkin/Repositories/cs-course-q3/Lessons/25/HomeWork/Reminder.Sender.Telegram/bin/Debug/netstandard2.1/Reminder.Sender.Telegram.deps.json
+/Users/artemtrofimushkin/Repositories/cs-course-q3/Lessons/25/HomeWork/Reminder.Sender.Telegram/bin/Debug/netstandard2.1/Reminder.Sender.Telegram.dll
+/Users/artemtrofimushkin/Repositories/cs-course-q3/Lessons/25/HomeWork/Reminder.Sender.Telegram/bin/Debug/netstandard2.1/Reminder.Sender.Telegram.pdb
+/Users/artemtrofimushkin/Repositories/cs-course-q3/Lessons/25/HomeWork/Reminder.Sender.Telegram/bin/Debug/netstandard2.1/Reminder.Sender.dll
+/Users/artemtrofimushkin/Repositories/cs-course-q3/Lessons/25/HomeWork/Reminder.Sender.Telegram/bin/Debug/netstandard2.1/Reminder.Sender.pdb
+/Users/artemtrofimushkin/Repositories/cs-course-q3/Lessons/25/HomeWork/Reminder.Sender.Telegram/obj/Debug/netstandard2.1/Reminder.Sender.Telegram.csprojAssemblyReference.cache
+/Users/artemtrofimushkin/Repositories/cs-course-q3/Lessons/25/HomeWork/Reminder.Sender.Telegram/obj/Debug/netstandard2.1/Reminder.Sender.Telegram.AssemblyInfoInputs.cache
+/Users/artemtrofimushkin/Repositories/cs-course-q3/Lessons/25/HomeWork/Reminder.Sender.Telegram/obj/Debug/netstandard2.1/Reminder.Sender.Telegram.AssemblyInfo.cs
+/Users/artemtrofimushkin/Repositories/cs-course-q3/Lessons/25/HomeWork/Reminder.Sender.Telegram/obj/Debug/netstandard2.1/Reminder.Sender.Telegram.csproj.CopyComplete
+/Users/artemtrofimushkin/Repositories/cs-course-q3/Lessons/25/HomeWork/Reminder.Sender.Telegram/obj/Debug/netstandard2.1/Reminder.Sender.Telegram.dll
+/Users/artemtrofimushkin/Repositories/cs-course-q3/Lessons/25/HomeWork/Reminder.Sender.Telegram/obj/Debug/netstandard2.1/Reminder.Sender.Telegram.pdb
